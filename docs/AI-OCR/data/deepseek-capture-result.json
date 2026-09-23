@@ -1,0 +1,33 @@
+{
+  "Passed": true,
+  "DurationSeconds": 30,
+  "Monitors": 1,
+  "AveragePreviewFPS": 28.898414665896137,
+  "MinimumIntervalFPS": 28.855754800868684,
+  "Samples": [
+    {
+      "Seconds": 10.0068305,
+      "PreviewFPS": 28.880273329302423,
+      "PrivateMB": 520.7109375,
+      "WorkingMB": 524.44140625,
+      "ManagedMB": 99.50273132324219,
+      "Handles": 1321
+    },
+    {
+      "Seconds": 20.0209138,
+      "PreviewFPS": 28.9592158675173,
+      "PrivateMB": 513.40234375,
+      "WorkingMB": 519.53125,
+      "ManagedMB": 103.44014739990234,
+      "Handles": 1316
+    },
+    {
+      "Seconds": 30.0015919,
+      "PreviewFPS": 28.855754800868684,
+      "PrivateMB": 514.12890625,
+      "WorkingMB": 518.1171875,
+      "ManagedMB": 100.02252197265625,
+      "Handles": 1318
+    }
+  ]
+}

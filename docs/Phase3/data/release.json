@@ -1,0 +1,22 @@
+{
+  "Version": "0.3.0",
+  "PublishedAt": "2026-09-13T16:27:06.6057631+08:00",
+  "Executable": "Release\\ScreenTranslator.exe",
+  "Bytes": 162816,
+  "PackageBytes": 305830014.0,
+  "SHA256": "75CAFFEE5B88AA1A93C4A4794BD7D69C893973AF8ADC431B53A1B5CD9CB54550",
+  "SelfContained": true,
+  "Runtime": "win-x64",
+  "FinalBinaryDesktopVerification": {
+    "StartupIdle": true,
+    "AutoCapture": false,
+    "OcrStatusBeforeStart": "待启动",
+    "StartLoadsOcr": "离线 · English",
+    "StartLoadsTranslation": "English → 中文 · Fast",
+    "CaptureStarted": true,
+    "PresentationRegionDetected": true,
+    "StopReturnsIdle": true,
+    "PreviewCleared": true,
+    "PerformanceTextCleared": "尚无本页性能数据"
+  }
+}

@@ -1,0 +1,35 @@
+PASS: Process allowlist excludes Word, browser and unclassified WPS host
+PASS: Physical to DIP roundtrip 1
+PASS: Uniform preview letterbox mapping 1
+PASS: Physical to DIP roundtrip 1.25
+PASS: Uniform preview letterbox mapping 1.25
+PASS: Physical to DIP roundtrip 1.5
+PASS: Uniform preview letterbox mapping 1.5
+PASS: Physical to DIP roundtrip 1.75
+PASS: Uniform preview letterbox mapping 1.75
+PASS: Negative monitor origin and cross-monitor clipping
+PASS: Candidate intersecting a higher window is rejected
+PASS: Unrelated higher window does not reject candidate
+PASS: Synthetic edit 1.778 background 245: IoU 0.996
+PASS: Synthetic edit 1.778 background 15: IoU 0.996
+PASS: Synthetic edit 1.778 background 95: IoU 0.996
+PASS: Synthetic edit 1.333 background 245: IoU 0.997
+PASS: Synthetic edit 1.333 background 15: IoU 0.997
+PASS: Synthetic edit 1.333 background 95: IoU 0.997
+PASS: Synthetic edit 1.600 background 245: IoU 0.996
+PASS: Synthetic edit 1.600 background 15: IoU 0.996
+PASS: Synthetic edit 1.600 background 95: IoU 0.996
+PASS: Synthetic full screen 1.778: excludes pillarbox
+PASS: Synthetic full screen 1.333: excludes pillarbox
+PASS: All-black frame does not invent a full-screen page boundary
+PASS: Single frame does not create stable region
+PASS: Repeated observations create stable region
+PASS: One outlier does not switch region
+PASS: Missing evidence expires stable region
+PASS: Very high confidence initial region is accepted without waiting for a changing desktop
+PASS: No target returns no PPT region
+PASS: Idle rejects vision frame admission
+PASS: Vision worker started off UI thread
+PASS: Backpressure bounds work to one frame; Stop waits and discards late results
+PASS: Stop detaches window tracking
+PASS: Unit suite does not auto start vision pipeline

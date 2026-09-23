@@ -1,0 +1,81 @@
+PASS: GPU row padding removed without corrupting BGRA pixels
+PASS: Missing config defaults AutoStart to false
+PASS: Corrupt config defaults AutoStart to false
+PASS: Persisted AutoStart true cannot enable automatic capture
+PASS: No capture Start call during view model construction or idle ticks
+PASS: UI startup idle; no automatic capture or preview
+PASS: Home is default navigation page
+PASS: Monitor enumeration returns attached monitors
+PASS: Initial command states
+PASS: Start button binding
+PASS: Pause button binding
+PASS: Stop button binding
+PASS: Monitor selector binding
+PASS: First GPU frame / Monitor 1 · Generic PnP Monitor · 2560 × 1440 · 150% · 主显示器
+PASS: Native capture resolution / Monitor 1 · Generic PnP Monitor · 2560 × 1440 · 150% · 主显示器
+PASS: Continuous preview frames
+PASS: Running UI command and visual states
+PASS: Home and recognition share running service and commands
+PASS: Pause completes
+PASS: Pause freezes and preserves preview
+PASS: Pause resets FPS
+PASS: Paused UI command and visual states
+PASS: Resume delivers frames
+PASS: Stop clears preview
+PASS: Recognition Stop synchronizes Home idle and cleared preview
+PASS: Restart cycle 0
+PASS: Stop cycle 0
+PASS: Restart cycle 1
+PASS: Stop cycle 1
+PASS: Restart cycle 2
+PASS: Stop cycle 2
+PASS: Restart cycle 3
+PASS: Stop cycle 3
+PASS: Restart cycle 4
+PASS: Stop cycle 4
+PASS: Restart cycle 5
+PASS: Stop cycle 5
+PASS: Restart cycle 6
+PASS: Stop cycle 6
+PASS: Restart cycle 7
+PASS: Stop cycle 7
+PASS: Soak capture starts
+PASS: Captured pixels contain nonblank desktop content
+PASS: Capture remains healthy at 10s
+PASS: Capture remains healthy at 20s
+PASS: Capture remains healthy at 30s
+PASS: Average real preview FPS >= 20
+PASS: Every sampled interval preview FPS >= 20
+PASS: Final stop releases preview
+PASS: DPI 125%, 1100x700, 首页: interactive controls fit horizontally ()
+PASS: DPI 125%, 1100x700, 实时识别: interactive controls fit horizontally ()
+PASS: DPI 125%, 1100x700, 文档翻译: interactive controls fit horizontally ()
+PASS: DPI 125%, 1100x700, 语言包: interactive controls fit horizontally ()
+PASS: DPI 125%, 1100x700, 设置: interactive controls fit horizontally ()
+PASS: DPI 125%, 1400x900, 首页: interactive controls fit horizontally ()
+PASS: DPI 125%, 1400x900, 实时识别: interactive controls fit horizontally ()
+PASS: DPI 125%, 1400x900, 文档翻译: interactive controls fit horizontally ()
+PASS: DPI 125%, 1400x900, 语言包: interactive controls fit horizontally ()
+PASS: DPI 125%, 1400x900, 设置: interactive controls fit horizontally ()
+PASS: DPI 150%, 1100x700, 首页: interactive controls fit horizontally ()
+PASS: DPI 150%, 1100x700, 实时识别: interactive controls fit horizontally ()
+PASS: DPI 150%, 1100x700, 文档翻译: interactive controls fit horizontally ()
+PASS: DPI 150%, 1100x700, 语言包: interactive controls fit horizontally ()
+PASS: DPI 150%, 1100x700, 设置: interactive controls fit horizontally ()
+PASS: DPI 150%, 1400x900, 首页: interactive controls fit horizontally ()
+PASS: DPI 150%, 1400x900, 实时识别: interactive controls fit horizontally ()
+PASS: DPI 150%, 1400x900, 文档翻译: interactive controls fit horizontally ()
+PASS: DPI 150%, 1400x900, 语言包: interactive controls fit horizontally ()
+PASS: DPI 150%, 1400x900, 设置: interactive controls fit horizontally ()
+PASS: DPI 175%, 1100x700, 首页: interactive controls fit horizontally ()
+PASS: DPI 175%, 1100x700, 实时识别: interactive controls fit horizontally ()
+PASS: DPI 175%, 1100x700, 文档翻译: interactive controls fit horizontally ()
+PASS: DPI 175%, 1100x700, 语言包: interactive controls fit horizontally ()
+PASS: DPI 175%, 1100x700, 设置: interactive controls fit horizontally ()
+PASS: DPI 175%, 1400x900, 首页: interactive controls fit horizontally ()
+PASS: DPI 175%, 1400x900, 实时识别: interactive controls fit horizontally ()
+PASS: DPI 175%, 1400x900, 文档翻译: interactive controls fit horizontally ()
+PASS: DPI 175%, 1400x900, 语言包: interactive controls fit horizontally ()
+PASS: DPI 175%, 1400x900, 设置: interactive controls fit horizontally ()
+PASS: Real window closes after async cleanup without Closing re-entry
+PASS: Disposed UI cannot restart capture

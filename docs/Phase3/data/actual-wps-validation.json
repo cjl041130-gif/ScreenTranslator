@@ -1,0 +1,27 @@
+{
+  "MeasuredAt": "2026-09-13",
+  "CoordinateSpace": "selected monitor physical pixels",
+  "IoUNote": "IoU comes from the Phase 2 manually annotated detector acceptance data. The detector and protected capture core are byte-for-byte unchanged in Phase 3.",
+  "ConfidenceNote": "Detector confidence is a heuristic score, not a calibrated probability.",
+  "Cases": [
+    {
+      "Case": "WPS editor 4:3, initial window",
+      "Phase3ObservedConfidence": 0.81,
+      "Result": "Artificial Intelligence → 人工智能"
+    },
+    {
+      "Case": "WPS editor 4:3, maximized with right property panel",
+      "Phase3ObservedConfidence": 0.95,
+      "Phase2GroundTruthIoU": 0.9999048180940404,
+      "Result": "Artificial Intelligence → 人工智能",
+      "CacheHitsAtFinal": 4
+    },
+    {
+      "Case": "WPS full-screen 4:3",
+      "Phase3ObservedConfidence": 0.96,
+      "Phase2GroundTruthIoU": 1.0,
+      "Result": "Artificial Intelligence → 人工智能",
+      "RestoredFromCache": true
+    }
+  ]
+}

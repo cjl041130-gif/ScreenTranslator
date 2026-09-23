@@ -1,0 +1,142 @@
+PASS: GPU row padding removed without corrupting BGRA pixels
+PASS: Missing config defaults AutoStart to false
+PASS: Corrupt config defaults AutoStart to false
+PASS: Persisted AutoStart true cannot enable automatic capture
+PASS: No capture Start call during view model construction or idle ticks
+PASS: UI startup idle; no automatic capture or preview
+PASS: Home is default navigation page
+PASS: Monitor enumeration returns attached monitors
+PASS: Initial command states
+PASS: Start button binding
+PASS: Pause button binding
+PASS: Stop button binding
+PASS: Monitor selector binding
+PASS: First GPU frame / Monitor 1 · Generic PnP Monitor · 2560 × 1440 · 150% · 主显示器
+PASS: Native capture resolution / Monitor 1 · Generic PnP Monitor · 2560 × 1440 · 150% · 主显示器
+PASS: Continuous preview frames
+PASS: Running UI command and visual states
+PASS: Home and recognition share running service and commands
+PASS: Pause completes
+PASS: Pause freezes and preserves preview
+PASS: Pause resets FPS
+PASS: Paused UI command and visual states
+PASS: Resume delivers frames
+PASS: Stop clears preview
+PASS: Recognition Stop synchronizes Home idle and cleared preview
+PASS: Restart cycle 0
+PASS: Stop cycle 0
+PASS: Restart cycle 1
+PASS: Stop cycle 1
+PASS: Restart cycle 2
+PASS: Stop cycle 2
+PASS: Restart cycle 3
+PASS: Stop cycle 3
+PASS: Restart cycle 4
+PASS: Stop cycle 4
+PASS: Restart cycle 5
+PASS: Stop cycle 5
+PASS: Restart cycle 6
+PASS: Stop cycle 6
+PASS: Restart cycle 7
+PASS: Stop cycle 7
+PASS: Soak capture starts
+PASS: Captured pixels contain nonblank desktop content
+PASS: Capture remains healthy at 10s
+PASS: Capture remains healthy at 20s
+PASS: Capture remains healthy at 30s
+PASS: Capture remains healthy at 40s
+PASS: Capture remains healthy at 50s
+PASS: Capture remains healthy at 60s
+PASS: Capture remains healthy at 70s
+PASS: Capture remains healthy at 80s
+PASS: Capture remains healthy at 90s
+PASS: Capture remains healthy at 100s
+PASS: Capture remains healthy at 110s
+PASS: Capture remains healthy at 120s
+PASS: Capture remains healthy at 130s
+PASS: Capture remains healthy at 140s
+PASS: Capture remains healthy at 150s
+PASS: Capture remains healthy at 160s
+PASS: Capture remains healthy at 170s
+PASS: Capture remains healthy at 180s
+PASS: Capture remains healthy at 190s
+PASS: Capture remains healthy at 200s
+PASS: Capture remains healthy at 210s
+PASS: Capture remains healthy at 220s
+PASS: Capture remains healthy at 230s
+PASS: Capture remains healthy at 240s
+PASS: Capture remains healthy at 250s
+PASS: Capture remains healthy at 260s
+PASS: Capture remains healthy at 270s
+PASS: Capture remains healthy at 280s
+PASS: Capture remains healthy at 290s
+PASS: Capture remains healthy at 300s
+PASS: Capture remains healthy at 310s
+PASS: Capture remains healthy at 320s
+PASS: Capture remains healthy at 330s
+PASS: Capture remains healthy at 340s
+PASS: Capture remains healthy at 350s
+PASS: Capture remains healthy at 360s
+PASS: Capture remains healthy at 370s
+PASS: Capture remains healthy at 380s
+PASS: Capture remains healthy at 390s
+PASS: Capture remains healthy at 400s
+PASS: Capture remains healthy at 410s
+PASS: Capture remains healthy at 420s
+PASS: Capture remains healthy at 430s
+PASS: Capture remains healthy at 440s
+PASS: Capture remains healthy at 450s
+PASS: Capture remains healthy at 460s
+PASS: Capture remains healthy at 470s
+PASS: Capture remains healthy at 480s
+PASS: Capture remains healthy at 490s
+PASS: Capture remains healthy at 500s
+PASS: Capture remains healthy at 510s
+PASS: Capture remains healthy at 520s
+PASS: Capture remains healthy at 530s
+PASS: Capture remains healthy at 540s
+PASS: Capture remains healthy at 550s
+PASS: Capture remains healthy at 560s
+PASS: Capture remains healthy at 570s
+PASS: Capture remains healthy at 580s
+PASS: Capture remains healthy at 590s
+PASS: Capture remains healthy at 600s
+PASS: Average real preview FPS >= 20
+PASS: Every sampled interval preview FPS >= 20
+PASS: One-time OCR allocation leaves at least 3 minutes for plateau verification (boundary=0.0s)
+PASS: Memory plateau baseline contains at least three samples
+PASS: 10-minute private memory plateau after lazy OCR warm-up: baseline=491.2MB, ending=509.9MB, delta=18.7MB < 64MB
+PASS: No sustained handle growth after lazy OCR warm-up: baseline=1290.7, ending=1278.3, delta=-12.4 < 30
+PASS: Final stop releases preview
+PASS: DPI 125%, 1100x700, 首页: interactive controls fit horizontally ()
+PASS: DPI 125%, 1100x700, 实时识别: interactive controls fit horizontally ()
+PASS: DPI 125%, 1100x700, 文档翻译: interactive controls fit horizontally ()
+PASS: DPI 125%, 1100x700, AI 翻译: interactive controls fit horizontally ()
+PASS: DPI 125%, 1100x700, 设置: interactive controls fit horizontally ()
+PASS: DPI 125%, 1400x900, 首页: interactive controls fit horizontally ()
+PASS: DPI 125%, 1400x900, 实时识别: interactive controls fit horizontally ()
+PASS: DPI 125%, 1400x900, 文档翻译: interactive controls fit horizontally ()
+PASS: DPI 125%, 1400x900, AI 翻译: interactive controls fit horizontally ()
+PASS: DPI 125%, 1400x900, 设置: interactive controls fit horizontally ()
+PASS: DPI 150%, 1100x700, 首页: interactive controls fit horizontally ()
+PASS: DPI 150%, 1100x700, 实时识别: interactive controls fit horizontally ()
+PASS: DPI 150%, 1100x700, 文档翻译: interactive controls fit horizontally ()
+PASS: DPI 150%, 1100x700, AI 翻译: interactive controls fit horizontally ()
+PASS: DPI 150%, 1100x700, 设置: interactive controls fit horizontally ()
+PASS: DPI 150%, 1400x900, 首页: interactive controls fit horizontally ()
+PASS: DPI 150%, 1400x900, 实时识别: interactive controls fit horizontally ()
+PASS: DPI 150%, 1400x900, 文档翻译: interactive controls fit horizontally ()
+PASS: DPI 150%, 1400x900, AI 翻译: interactive controls fit horizontally ()
+PASS: DPI 150%, 1400x900, 设置: interactive controls fit horizontally ()
+PASS: DPI 175%, 1100x700, 首页: interactive controls fit horizontally ()
+PASS: DPI 175%, 1100x700, 实时识别: interactive controls fit horizontally ()
+PASS: DPI 175%, 1100x700, 文档翻译: interactive controls fit horizontally ()
+PASS: DPI 175%, 1100x700, AI 翻译: interactive controls fit horizontally ()
+PASS: DPI 175%, 1100x700, 设置: interactive controls fit horizontally ()
+PASS: DPI 175%, 1400x900, 首页: interactive controls fit horizontally ()
+PASS: DPI 175%, 1400x900, 实时识别: interactive controls fit horizontally ()
+PASS: DPI 175%, 1400x900, 文档翻译: interactive controls fit horizontally ()
+PASS: DPI 175%, 1400x900, AI 翻译: interactive controls fit horizontally ()
+PASS: DPI 175%, 1400x900, 设置: interactive controls fit horizontally ()
+PASS: Real window closes after async cleanup without Closing re-entry
+PASS: Disposed UI cannot restart capture

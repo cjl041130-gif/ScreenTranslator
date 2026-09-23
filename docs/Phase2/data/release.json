@@ -1,0 +1,11 @@
+{
+  "Version": "0.2.0",
+  "Runtime": "win-x64 self-contained",
+  "Executable": "ScreenTranslator.exe",
+  "ExecutableSHA256": "96AD3A0AA84210EB9DC764BCF664BE58B0A011A2DB1CA76C3065FEE88880B849",
+  "FileCount": 413,
+  "TotalBytes": 271280177.0,
+  "OpenCvSharpIncluded": true,
+  "OpenCvNativeIncluded": true,
+  "OfflineRuntime": true
+}

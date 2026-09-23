@@ -1,0 +1,60 @@
+{
+  "Timestamp": "2026-09-19T07:54:53.3969215+00:00",
+  "Error": null,
+  "Target": {
+    "Handle": 1969650,
+    "ProcessName": "wpp",
+    "Title": "WPS Presentation Slide Show - [Phase3Acceptance.pptx]",
+    "ClassName": "Qt5QWindowIcon",
+    "DpiScale": 1.5,
+    "IsFullscreen": true,
+    "IsForeground": true,
+    "IsLastExternalForeground": true,
+    "Client": {
+      "X": 0,
+      "Y": 0,
+      "Width": 2560,
+      "Height": 1440
+    }
+  },
+  "Search": {
+    "X": 0,
+    "Y": 0,
+    "Width": 2560,
+    "Height": 1440
+  },
+  "Region": {
+    "Bounds": {
+      "X": 0,
+      "Y": 0,
+      "Width": 2560,
+      "Height": 1440
+    },
+    "Confidence": 0.9088357600188159,
+    "AspectRatio": 1.7777777777777777,
+    "DetectionMethod": "Fullscreen uniform-border scan"
+  },
+  "LatencyMs": 200.7113,
+  "Candidates": [
+    {
+      "Bounds": {
+        "X": 0,
+        "Y": 0,
+        "Width": 2560,
+        "Height": 1440
+      },
+      "Method": "Fullscreen uniform-border scan",
+      "Scores": {
+        "AreaScore": 1,
+        "AspectRatioScore": 1,
+        "RectangleCompletenessScore": 1,
+        "EdgeScore": 1,
+        "CenterScore": 1,
+        "WindowContainmentScore": 1,
+        "InteriorScore": 0.5426195557646204,
+        "TemporalStabilityScore": 0.5,
+        "FinalScore": 0.9088357600188159
+      }
+    }
+  ]
+}

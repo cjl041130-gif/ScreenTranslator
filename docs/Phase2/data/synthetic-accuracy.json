@@ -1,0 +1,173 @@
+[
+  {
+    "Kind": "Synthetic edit fixture, not application evidence",
+    "ratio": 1.7777777777777777,
+    "background": 245,
+    "Expected": {
+      "X": 240,
+      "Y": 120,
+      "Width": 720,
+      "Height": 405
+    },
+    "Detected": {
+      "X": 239,
+      "Y": 119,
+      "Width": 721,
+      "Height": 406
+    },
+    "IoU": 0.996153399424718,
+    "Confidence": 0.9005870288496601
+  },
+  {
+    "Kind": "Synthetic edit fixture, not application evidence",
+    "ratio": 1.7777777777777777,
+    "background": 15,
+    "Expected": {
+      "X": 240,
+      "Y": 120,
+      "Width": 720,
+      "Height": 405
+    },
+    "Detected": {
+      "X": 239,
+      "Y": 119,
+      "Width": 721,
+      "Height": 406
+    },
+    "IoU": 0.996153399424718,
+    "Confidence": 0.9058219376245233
+  },
+  {
+    "Kind": "Synthetic edit fixture, not application evidence",
+    "ratio": 1.7777777777777777,
+    "background": 95,
+    "Expected": {
+      "X": 240,
+      "Y": 120,
+      "Width": 720,
+      "Height": 405
+    },
+    "Detected": {
+      "X": 239,
+      "Y": 119,
+      "Width": 721,
+      "Height": 406
+    },
+    "IoU": 0.996153399424718,
+    "Confidence": 0.8908738388727472
+  },
+  {
+    "Kind": "Synthetic edit fixture, not application evidence",
+    "ratio": 1.3333333333333333,
+    "background": 245,
+    "Expected": {
+      "X": 240,
+      "Y": 120,
+      "Width": 720,
+      "Height": 540
+    },
+    "Detected": {
+      "X": 239,
+      "Y": 119,
+      "Width": 721,
+      "Height": 541
+    },
+    "IoU": 0.996767172314074,
+    "Confidence": 0.8972621873648523
+  },
+  {
+    "Kind": "Synthetic edit fixture, not application evidence",
+    "ratio": 1.3333333333333333,
+    "background": 15,
+    "Expected": {
+      "X": 240,
+      "Y": 120,
+      "Width": 720,
+      "Height": 540
+    },
+    "Detected": {
+      "X": 239,
+      "Y": 119,
+      "Width": 721,
+      "Height": 541
+    },
+    "IoU": 0.996767172314074,
+    "Confidence": 0.9023794906065885
+  },
+  {
+    "Kind": "Synthetic edit fixture, not application evidence",
+    "ratio": 1.3333333333333333,
+    "background": 95,
+    "Expected": {
+      "X": 240,
+      "Y": 120,
+      "Width": 720,
+      "Height": 540
+    },
+    "Detected": {
+      "X": 239,
+      "Y": 119,
+      "Width": 721,
+      "Height": 541
+    },
+    "IoU": 0.996767172314074,
+    "Confidence": 0.8892404337729103
+  },
+  {
+    "Kind": "Synthetic edit fixture, not application evidence",
+    "ratio": 1.6,
+    "background": 245,
+    "Expected": {
+      "X": 240,
+      "Y": 120,
+      "Width": 720,
+      "Height": 450
+    },
+    "Detected": {
+      "X": 239,
+      "Y": 119,
+      "Width": 721,
+      "Height": 451
+    },
+    "IoU": 0.9963988178527605,
+    "Confidence": 0.8104981740446745
+  },
+  {
+    "Kind": "Synthetic edit fixture, not application evidence",
+    "ratio": 1.6,
+    "background": 15,
+    "Expected": {
+      "X": 240,
+      "Y": 120,
+      "Width": 720,
+      "Height": 450
+    },
+    "Detected": {
+      "X": 239,
+      "Y": 119,
+      "Width": 721,
+      "Height": 451
+    },
+    "IoU": 0.9963988178527605,
+    "Confidence": 0.8152729385509805
+  },
+  {
+    "Kind": "Synthetic edit fixture, not application evidence",
+    "ratio": 1.6,
+    "background": 95,
+    "Expected": {
+      "X": 240,
+      "Y": 120,
+      "Width": 720,
+      "Height": 450
+    },
+    "Detected": {
+      "X": 239,
+      "Y": 119,
+      "Width": 721,
+      "Height": 451
+    },
+    "IoU": 0.9963988178527605,
+    "Confidence": 0.8021386035153356
+  }
+]

@@ -1,0 +1,6 @@
+PASS
+离线翻译引擎已经就绪。
+164.7 ms
+ExitCode=0
+CodeIntegrityBlocks=0
+Microsoft.ML.Tokenizers.dll=False

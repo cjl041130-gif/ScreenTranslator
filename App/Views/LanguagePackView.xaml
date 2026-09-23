@@ -1,0 +1,21 @@
+<UserControl x:Class="ScreenTranslator.Views.LanguagePackView" xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+ <StackPanel>
+  <TextBlock Text="AI 翻译" Style="{StaticResource PageTitle}"/>
+  <TextBlock Text="在 DeepL、DeepSeek V4 Pro 和 DeepSeek Flash 之间选择。" Style="{StaticResource BodyMuted}" Margin="0,0,0,24"/>
+  <Border Style="{StaticResource CardStyle}">
+   <StackPanel>
+    <DockPanel>
+     <StackPanel><TextBlock Text="在线翻译引擎" FontSize="24" FontWeight="SemiBold"/><TextBlock Text="DeepL / DeepSeek · English → 中文" Style="{StaticResource BodyMuted}" Margin="0,8,0,0"/></StackPanel>
+     <Border Style="{StaticResource Badge}" HorizontalAlignment="Right"><TextBlock Text="{Binding Capture.SelectedTranslationMode}" Foreground="{StaticResource Accent}"/></Border>
+    </DockPanel>
+    <Border Background="{StaticResource Canvas}" CornerRadius="12" Padding="24" Margin="0,26,0,20">
+     <StackPanel>
+      <TextBlock Text="{Binding Capture.ActiveTranslationStatus}" FontSize="17" FontWeight="SemiBold"/>
+      <TextBlock Text="页面稳定后，本地 OCR 会先提取全部英文文字，再将整页文字作为一次结构化请求发送。屏幕截图与文档区域图片不会上传。" TextWrapping="Wrap" Style="{StaticResource BodyMuted}" Margin="0,10,0,0"/>
+     </StackPanel>
+    </Border>
+    <TextBlock Text="请在“设置”中分别填写 DeepL 或 DeepSeek API Key。DeepSeek 模型只能从 V4 Pro 和 Flash 中选择。应用启动时不会测试连接，也不会自动发送请求。" TextWrapping="Wrap" Style="{StaticResource Caption}"/>
+   </StackPanel>
+  </Border>
+ </StackPanel>
+</UserControl>

@@ -1,0 +1,31 @@
+PASS: Real Windows OCR reads acceptance phrase: Artificial Intelligence
+PASS: OCR returns positioned text blocks
+PASS: Acceptance translation: Artificial Intelligence → 人工智能
+PASS: Neural sentence translation produces complete Chinese: The meeting starts at nine o'clock tomorrow morning.
+PASS: Neural sentence translation produces complete Chinese: Please review the quarterly sales report before Friday.
+PASS: Neural sentence translation produces complete Chinese: Our new system improves accuracy and reduces processing time.
+PASS: Neural sentence translation produces complete Chinese: Students can access the course materials from any device.
+PASS: Neural sentence translation produces complete Chinese: This chart shows the growth of renewable energy in Asia.
+PASS: Neural sentence translation produces complete Chinese: Data privacy is essential for every organization.
+PASS: Neural sentence translation produces complete Chinese: The project team completed all major tasks on schedule.
+PASS: Neural sentence translation produces complete Chinese: Artificial intelligence helps people understand complex information quickly.
+PASS: Neural sentence translation produces complete Chinese: Customer feedback helps us improve product quality.
+PASS: Neural sentence translation produces complete Chinese: Turn off the computer after the presentation has finished.
+PASS: Rendered slide OCR block receives complete neural translation: Building Reliable Offline Software
+PASS: Rendered slide OCR block receives complete neural translation: The system processes every image on this computer.
+PASS: Rendered slide OCR block receives complete neural translation: Clear information helps teams make better decisions.
+PASS: Rendered slide OCR finds all three English text lines (3 blocks)
+PASS: Repeated text uses bounded in-memory translation cache
+PASS: Neural translation observes cancellation
+PASS: Bundled neural ONNX language pack metadata validates
+PASS: Missing neural language pack fails with a clear initialization error
+PASS: Corrupted neural language pack is rejected by SHA256 validation
+PASS: Title and two-column reading order
+PASS: Local OCR correction and dehyphenation
+PASS: Initial slide waits for stability before OCR
+PASS: Static slide does not repeat OCR
+PASS: Meaningful slide change triggers after debounce
+PASS: Returning to a page restores cached OCR/translation
+PASS: Recognition worker starts after slide stability debounce
+PASS: Stop cancels active OCR and discards late recognition output
+PASS: Stop hides translation overlay

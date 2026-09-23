@@ -1,0 +1,146 @@
+{
+  "ComparedAgainst": "C:\\翻译器 Phase 2 snapshot before Phase 3 sync",
+  "GeneratedAt": "2026-09-13T16:32:30.2065313+08:00",
+  "Files": [
+    {
+      "Kind": "Modified",
+      "Path": "appsettings.json"
+    },
+    {
+      "Kind": "Modified",
+      "Path": "App\\MainViewModel.cs"
+    },
+    {
+      "Kind": "Modified",
+      "Path": "App\\ScreenTranslator.csproj"
+    },
+    {
+      "Kind": "Modified",
+      "Path": "App\\Views\\HomeView.xaml"
+    },
+    {
+      "Kind": "Modified",
+      "Path": "App\\Views\\LanguagePackView.xaml"
+    },
+    {
+      "Kind": "Modified",
+      "Path": "App\\Views\\PresentationPreviewOverlay.cs"
+    },
+    {
+      "Kind": "Modified",
+      "Path": "App\\Views\\PreviewPane.xaml"
+    },
+    {
+      "Kind": "Modified",
+      "Path": "App\\Views\\RecognitionView.xaml"
+    },
+    {
+      "Kind": "Modified",
+      "Path": "App\\Views\\SettingsView.xaml"
+    },
+    {
+      "Kind": "Added",
+      "Path": "Models\\RecognitionModels.cs"
+    },
+    {
+      "Kind": "Added",
+      "Path": "ModelsData\\Translation\\en-zh\\config.json"
+    },
+    {
+      "Kind": "Added",
+      "Path": "ModelsData\\Translation\\en-zh\\LICENSE.txt"
+    },
+    {
+      "Kind": "Added",
+      "Path": "ModelsData\\Translation\\en-zh\\metadata.json"
+    },
+    {
+      "Kind": "Added",
+      "Path": "ModelsData\\Translation\\en-zh\\README.md"
+    },
+    {
+      "Kind": "Added",
+      "Path": "ModelsData\\Translation\\en-zh\\vocabulary.json"
+    },
+    {
+      "Kind": "Added",
+      "Path": "ModelsData\\Translation\\en-zh\\model\\phrase-table.json"
+    },
+    {
+      "Kind": "Added",
+      "Path": "ModelsData\\Translation\\en-zh\\tokenizer\\rules.json"
+    },
+    {
+      "Kind": "Added",
+      "Path": "OCR\\IOcrEngine.cs"
+    },
+    {
+      "Kind": "Added",
+      "Path": "OCR\\IReadingOrderResolver.cs"
+    },
+    {
+      "Kind": "Added",
+      "Path": "OCR\\LocalOcrPostProcessor.cs"
+    },
+    {
+      "Kind": "Added",
+      "Path": "OCR\\WindowsOcrEngine.cs"
+    },
+    {
+      "Kind": "Added",
+      "Path": "Overlay\\ITranslationOverlay.cs"
+    },
+    {
+      "Kind": "Added",
+      "Path": "Overlay\\WpfTranslationOverlay.cs"
+    },
+    {
+      "Kind": "Added",
+      "Path": "Recognition\\RecognitionPipeline.cs"
+    },
+    {
+      "Kind": "Added",
+      "Path": "Recognition\\RecognitionSettings.cs"
+    },
+    {
+      "Kind": "Added",
+      "Path": "Recognition\\SlideFingerprint.cs"
+    },
+    {
+      "Kind": "Added",
+      "Path": "Recognition\\SlideRecognitionCache.cs"
+    },
+    {
+      "Kind": "Modified",
+      "Path": "Services\\AppSettings.cs"
+    },
+    {
+      "Kind": "Added",
+      "Path": "Tests\\Phase3Tests.cs"
+    },
+    {
+      "Kind": "Modified",
+      "Path": "Tests\\Program.cs"
+    },
+    {
+      "Kind": "Added",
+      "Path": "Tests\\Fixtures\\Phase3Acceptance.pptx"
+    },
+    {
+      "Kind": "Added",
+      "Path": "Translation\\ITranslationEngine.cs"
+    },
+    {
+      "Kind": "Added",
+      "Path": "Translation\\LocalLanguagePackService.cs"
+    },
+    {
+      "Kind": "Added",
+      "Path": "Translation\\LocalPhraseTranslationEngine.cs"
+    },
+    {
+      "Kind": "Added",
+      "Path": "Translation\\TerminologyManager.cs"
+    }
+  ]
+}

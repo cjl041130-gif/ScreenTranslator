@@ -1,0 +1,17 @@
+{
+  "Trace": "capture-regression-600s/samples.csv",
+  "Samples": 60,
+  "AverageFPS": 27.26700000000001,
+  "MinimumFPS": 25.58,
+  "LargestOneTimePrivateJumpMB": 1667.6800000000003,
+  "WarmupBoundarySeconds": 311.68,
+  "PostWarmupBaselineWindow": "372-432",
+  "BaselinePrivateMB": 2839.4166666666665,
+  "EndingPrivateMB": 2842.8223076923077,
+  "PrivateGrowthMB": 3.4056410256412164,
+  "BaselineHandles": 1524.1666666666667,
+  "EndingHandles": 1517.923076923077,
+  "HandleGrowth": -6.243589743589837,
+  "PassMemory": true,
+  "PassHandles": true
+}

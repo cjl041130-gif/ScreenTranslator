@@ -1,0 +1,220 @@
+{
+  "Timestamp": "2026-09-12T13:30:12.8126032+00:00",
+  "Error": null,
+  "Target": {
+    "Handle": 198640,
+    "ProcessName": "wpp",
+    "Title": "TestPresentation4x3.pptx - WPS Office",
+    "ClassName": "OpusApp",
+    "DpiScale": 1.5,
+    "IsFullscreen": false,
+    "IsForeground": true,
+    "IsLastExternalForeground": true,
+    "Client": {
+      "X": 0,
+      "Y": 0,
+      "Width": 2560,
+      "Height": 1439
+    }
+  },
+  "Search": {
+    "X": 0,
+    "Y": 0,
+    "Width": 2560,
+    "Height": 1439
+  },
+  "Region": {
+    "Bounds": {
+      "X": 571.7333333333333,
+      "Y": 337.33234421364983,
+      "Width": 1284.2666666666667,
+      "Height": 962.8916913946588
+    },
+    "Confidence": 0.9446058957244355,
+    "AspectRatio": 1.3337602537690674,
+    "DetectionMethod": "Colour contrast contour"
+  },
+  "LatencyMs": 52.1643,
+  "Candidates": [
+    {
+      "Bounds": {
+        "X": 571.7333333333333,
+        "Y": 337.33234421364983,
+        "Width": 1284.2666666666667,
+        "Height": 962.8916913946588
+      },
+      "Method": "Colour contrast contour",
+      "Scores": {
+        "AreaScore": 1,
+        "AspectRatioScore": 0.9991203217750169,
+        "RectangleCompletenessScore": 0.9961013178540121,
+        "EdgeScore": 1,
+        "CenterScore": 0.9263309243731727,
+        "WindowContainmentScore": 1,
+        "InteriorScore": 0.4538153714602464,
+        "TemporalStabilityScore": 1,
+        "FinalScore": 0.9446058957244355
+      }
+    },
+    {
+      "Bounds": {
+        "X": 19.2,
+        "Y": 111.02077151335311,
+        "Width": 2521.6,
+        "Height": 111.02077151335311
+      },
+      "Method": "Closed edge contour",
+      "Scores": {
+        "AreaScore": 0.2714073760067825,
+        "AspectRatioScore": 0.4500016158099633,
+        "RectangleCompletenessScore": 0.9793456332161916,
+        "EdgeScore": 1,
+        "CenterScore": 0.615727002967359,
+        "WindowContainmentScore": 1,
+        "InteriorScore": 0.6594889076229833,
+        "TemporalStabilityScore": 0,
+        "FinalScore": 0.5387340537516401
+      }
+    },
+    {
+      "Bounds": {
+        "X": 68.26666666666667,
+        "Y": 111.02077151335311,
+        "Width": 279.46666666666664,
+        "Height": 1310.899109792285
+      },
+      "Method": "Line intersection",
+      "Scores": {
+        "AreaScore": 0.35517344920163907,
+        "AspectRatioScore": 0.4500574741739857,
+        "RectangleCompletenessScore": 1,
+        "EdgeScore": 0.5823463114754098,
+        "CenterScore": 0.5799797694302746,
+        "WindowContainmentScore": 1,
+        "InteriorScore": 1,
+        "TemporalStabilityScore": 0,
+        "FinalScore": 0.5011052123018205
+      }
+    },
+    {
+      "Bounds": {
+        "X": 68.26666666666667,
+        "Y": 25.620178041543028,
+        "Width": 279.46666666666664,
+        "Height": 1396.299703264095
+      },
+      "Method": "Line intersection",
+      "Scores": {
+        "AreaScore": 0.37831178465451454,
+        "AspectRatioScore": 0.45004192044193425,
+        "RectangleCompletenessScore": 1,
+        "EdgeScore": 0.5504699519230769,
+        "CenterScore": 0.581239486436777,
+        "WindowContainmentScore": 1,
+        "InteriorScore": 1,
+        "TemporalStabilityScore": 0,
+        "FinalScore": 0.498498374059627
+      }
+    },
+    {
+      "Bounds": {
+        "X": 68.26666666666667,
+        "Y": 111.02077151335311,
+        "Width": 249.6,
+        "Height": 1310.899109792285
+      },
+      "Method": "Line intersection",
+      "Scores": {
+        "AreaScore": 0.31721598134802875,
+        "AspectRatioScore": 0.45003266221015326,
+        "RectangleCompletenessScore": 1,
+        "EdgeScore": 0.5826330169686512,
+        "CenterScore": 0.5741638360445537,
+        "WindowContainmentScore": 1,
+        "InteriorScore": 1,
+        "TemporalStabilityScore": 0,
+        "FinalScore": 0.49591582913911386
+      }
+    },
+    {
+      "Bounds": {
+        "X": 68.26666666666667,
+        "Y": 219.90652818991097,
+        "Width": 249.6,
+        "Height": 1202.013353115727
+      },
+      "Method": "Line intersection",
+      "Scores": {
+        "AreaScore": 0.2908674226367105,
+        "AspectRatioScore": 0.4500503901266887,
+        "RectangleCompletenessScore": 1,
+        "EdgeScore": 0.601983865914787,
+        "CenterScore": 0.5696075033172632,
+        "WindowContainmentScore": 1,
+        "InteriorScore": 1,
+        "TemporalStabilityScore": 0,
+        "FinalScore": 0.49569696415433123
+      }
+    },
+    {
+      "Bounds": {
+        "X": 68.26666666666667,
+        "Y": 25.620178041543028,
+        "Width": 249.6,
+        "Height": 1396.299703264095
+      },
+      "Method": "Line intersection",
+      "Scores": {
+        "AreaScore": 0.3378815175922001,
+        "AspectRatioScore": 0.450023823122443,
+        "RectangleCompletenessScore": 1,
+        "EdgeScore": 0.5491977058029689,
+        "CenterScore": 0.5754062975453136,
+        "WindowContainmentScore": 1,
+        "InteriorScore": 1,
+        "TemporalStabilityScore": 0,
+        "FinalScore": 0.49271361681013476
+      }
+    },
+    {
+      "Bounds": {
+        "X": 68.26666666666667,
+        "Y": 187.8813056379822,
+        "Width": 288,
+        "Height": 1234.0385756676558
+      },
+      "Method": "Line intersection",
+      "Scores": {
+        "AreaScore": 0.3445580754557015,
+        "AspectRatioScore": 0.45009036240187233,
+        "RectangleCompletenessScore": 1,
+        "EdgeScore": 0.49597785344736567,
+        "CenterScore": 0.5787155416608063,
+        "WindowContainmentScore": 1,
+        "InteriorScore": 1,
+        "TemporalStabilityScore": 0,
+        "FinalScore": 0.48432803039616606
+      }
+    },
+    {
+      "Bounds": {
+        "X": 68.26666666666667,
+        "Y": 185.74629080118694,
+        "Width": 279.46666666666664,
+        "Height": 1236.173590504451
+      },
+      "Method": "Line intersection",
+      "Scores": {
+        "AreaScore": 0.334927405680373,
+        "AspectRatioScore": 0.45007707646273787,
+        "RectangleCompletenessScore": 1,
+        "EdgeScore": 0.48417968750000007,
+        "CenterScore": 0.5771688888899089,
+        "WindowContainmentScore": 1,
+        "InteriorScore": 1,
+        "TemporalStabilityScore": 0,
+        "FinalScore": 0.48089640279953094
+      }
+    }
+  ]
+}

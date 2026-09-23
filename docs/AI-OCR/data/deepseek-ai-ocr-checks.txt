@@ -1,0 +1,75 @@
+PASS: Legacy OpenAI settings migrate to the DeepSeek default without user config cleanup
+PASS: DeepSeek endpoint is fixed so OCR text cannot be redirected by damaged settings
+PASS: AI translation sends one whole-page request containing every OCR block
+PASS: AI translation maps complete results back by stable block IDs
+PASS: Identical stable page uses SHA256 LRU cache without another API request
+PASS: Non-JSON AI response is rejected
+PASS: Markdown-wrapped JSON is rejected
+PASS: Empty result is rejected
+PASS: Missing block ID is rejected
+PASS: Duplicate block ID is rejected
+PASS: Unknown block ID is rejected
+PASS: Empty translated text is rejected
+PASS: Abnormal untranslated English residue is rejected
+PASS: Invalid structured result receives one stricter repair request
+PASS: Second invalid response stops without a fallback translation
+PASS: Invalid response retry is limited to one repair attempt
+PASS: Missing API key performs no network request and returns a clear status
+PASS: AI page request observes CancellationToken for page changes, Pause and Stop
+PASS: DeepSeek Chat Completions response content and token usage are parsed
+PASS: DeepSeek request uses the official Chat Completions endpoint
+PASS: DeepSeek request uses non-thinking JSON mode with system and whole-page user messages
+PASS: HTTP 401 maps to Authentication without uncontrolled retries
+PASS: HTTP 401 request count is bounded (1)
+PASS: HTTP 402 maps to Quota without uncontrolled retries
+PASS: HTTP 402 request count is bounded (1)
+PASS: HTTP 429 maps to Quota without uncontrolled retries
+PASS: HTTP 429 request count is bounded (3)
+PASS: HTTP 500 maps to Service without uncontrolled retries
+PASS: HTTP 500 request count is bounded (3)
+PASS: HTTP timeout is converted to a user-readable AI timeout error
+PASS: API key never enters AI request logs
+PASS: OCR source text never enters AI request logs
+PASS: API key round-trips through Windows Credential Manager
+PASS: API key deletion removes the Windows credential
+PASS: PaddleOCR ONNX detection and English recognition models initialize locally
+PASS: PaddleOCR detects all rendered English lines (3 blocks)
+PASS: PaddleOCR exposes model confidence instead of heuristic confidence
+PASS: PaddleOCR recognizes the rendered title: Introduction to Computer Vision Computer vision enables machines to understand images. Reliable recoanition preserves every important sentence.
+PASS: OCR benchmark CER <= 12% (2.15%)
+PASS: OCR benchmark WER <= 20% (8.60%)
+PASS: OCR benchmark line recall >= 85% (100.00%)
+PASS: Real Windows OCR reads acceptance phrase: Artificial Intelligence
+PASS: OCR returns positioned text blocks
+PASS: Acceptance translation: Artificial Intelligence → 人工智能
+PASS: Neural sentence translation produces complete Chinese: The meeting starts at nine o'clock tomorrow morning.
+PASS: Neural sentence translation produces complete Chinese: Please review the quarterly sales report before Friday.
+PASS: Neural sentence translation produces complete Chinese: Our new system improves accuracy and reduces processing time.
+PASS: Neural sentence translation produces complete Chinese: Students can access the course materials from any device.
+PASS: Neural sentence translation produces complete Chinese: This chart shows the growth of renewable energy in Asia.
+PASS: Neural sentence translation produces complete Chinese: Data privacy is essential for every organization.
+PASS: Neural sentence translation produces complete Chinese: The project team completed all major tasks on schedule.
+PASS: Neural sentence translation produces complete Chinese: Artificial intelligence helps people understand complex information quickly.
+PASS: Neural sentence translation produces complete Chinese: Customer feedback helps us improve product quality.
+PASS: Neural sentence translation produces complete Chinese: Turn off the computer after the presentation has finished.
+PASS: Rendered slide OCR block receives complete neural translation: Building Reliable Offline Software
+PASS: Rendered slide OCR block receives complete neural translation: The system processes every image on this computer.
+PASS: Rendered slide OCR block receives complete neural translation: Clear information helps teams make better decisions.
+PASS: Rendered slide OCR finds all three English text lines (3 blocks)
+PASS: Repeated text uses bounded in-memory translation cache
+PASS: Neural translation observes cancellation
+PASS: Bundled neural ONNX language pack metadata validates
+PASS: Missing neural language pack fails with a clear initialization error
+PASS: Corrupted neural language pack is rejected by SHA256 validation
+PASS: Title and two-column reading order
+PASS: Local OCR correction and dehyphenation
+PASS: Initial slide waits for stability before OCR
+PASS: Static slide does not repeat OCR
+PASS: Meaningful slide change triggers after debounce
+PASS: Returning to a page restores cached OCR/translation
+PASS: Recognition worker starts before page-change cancellation
+PASS: Page change immediately cancels active OCR/AI work
+PASS: Canceled old page cannot publish or retain a stale overlay
+PASS: Recognition worker starts after slide stability debounce
+PASS: Stop cancels active OCR and discards late recognition output
+PASS: Stop hides translation overlay

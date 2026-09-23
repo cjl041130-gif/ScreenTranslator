@@ -1,0 +1,10 @@
+{
+  "model": "Helsinki-NLP/opus-mt-en-zh",
+  "modelRevision": "408d9bc410a388e1d9aef112a2daba955b945255",
+  "onnxConversion": "Xenova/opus-mt-en-zh",
+  "onnxRevision": "046f55aec303cdee3e0318604406d4df20f1e8ea",
+  "license": "Apache-2.0",
+  "downloadedForBuild": "2026-09-13",
+  "runtimeNetworkRequired": false,
+  "integrityManifest": "ModelsData/Translation/en-zh-neural/manifest.json"
+}

@@ -1,0 +1,60 @@
+{
+  "Timestamp": "2026-09-12T14:00:53.060918+00:00",
+  "Error": null,
+  "Target": {
+    "Handle": 724416,
+    "ProcessName": "wpp",
+    "Title": "WPS Presentation Slide Show - [TestPresentation4x3.pptx]",
+    "ClassName": "Qt5QWindowIcon",
+    "DpiScale": 1.5,
+    "IsFullscreen": true,
+    "IsForeground": true,
+    "IsLastExternalForeground": true,
+    "Client": {
+      "X": 0,
+      "Y": 0,
+      "Width": 2560,
+      "Height": 1440
+    }
+  },
+  "Search": {
+    "X": 0,
+    "Y": 0,
+    "Width": 2560,
+    "Height": 1440
+  },
+  "Region": {
+    "Bounds": {
+      "X": 320,
+      "Y": 0,
+      "Width": 1920,
+      "Height": 1440
+    },
+    "Confidence": 0.9659252615985887,
+    "AspectRatio": 1.3333333333333333,
+    "DetectionMethod": "Fullscreen uniform-border scan"
+  },
+  "LatencyMs": 10.3121,
+  "Candidates": [
+    {
+      "Bounds": {
+        "X": 320,
+        "Y": 0,
+        "Width": 1920,
+        "Height": 1440
+      },
+      "Method": "Fullscreen uniform-border scan",
+      "Scores": {
+        "AreaScore": 1,
+        "AspectRatioScore": 1,
+        "RectangleCompletenessScore": 1,
+        "EdgeScore": 1,
+        "CenterScore": 1,
+        "WindowContainmentScore": 1,
+        "InteriorScore": 0.6213917955398744,
+        "TemporalStabilityScore": 1,
+        "FinalScore": 0.9659252615985887
+      }
+    }
+  ]
+}

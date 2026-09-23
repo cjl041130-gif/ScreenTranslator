@@ -1,0 +1,489 @@
+{
+  "Passed": true,
+  "DurationSeconds": 600,
+  "Monitors": 1,
+  "AveragePreviewFPS": 28.36663296584861,
+  "MinimumIntervalFPS": 27.564870226788166,
+  "Samples": [
+    {
+      "Seconds": 10.005663,
+      "PreviewFPS": 27.784265770294283,
+      "PrivateMB": 503.6484375,
+      "WorkingMB": 516.8984375,
+      "ManagedMB": 86.52809143066406,
+      "Handles": 1302
+    },
+    {
+      "Seconds": 20.0279432,
+      "PreviewFPS": 28.237087204965594,
+      "PrivateMB": 487.46875,
+      "WorkingMB": 500.73046875,
+      "ManagedMB": 84.24700927734375,
+      "Handles": 1297
+    },
+    {
+      "Seconds": 30.0377255,
+      "PreviewFPS": 28.671952236164014,
+      "PrivateMB": 487.4921875,
+      "WorkingMB": 500.74609375,
+      "ManagedMB": 86.57572174072266,
+      "Handles": 1294
+    },
+    {
+      "Seconds": 40.0536158,
+      "PreviewFPS": 28.255101795593742,
+      "PrivateMB": 487.75390625,
+      "WorkingMB": 493.34375,
+      "ManagedMB": 88.9339828491211,
+      "Handles": 1299
+    },
+    {
+      "Seconds": 50.0617386,
+      "PreviewFPS": 27.97727461937219,
+      "PrivateMB": 488.47265625,
+      "WorkingMB": 491.2265625,
+      "ManagedMB": 83.765380859375,
+      "Handles": 1297
+    },
+    {
+      "Seconds": 60.0776316,
+      "PreviewFPS": 28.4547768231949,
+      "PrivateMB": 488.4375,
+      "WorkingMB": 486.0390625,
+      "ManagedMB": 86.02544403076172,
+      "Handles": 1289
+    },
+    {
+      "Seconds": 70.1004883,
+      "PreviewFPS": 28.43500695764712,
+      "PrivateMB": 489.38671875,
+      "WorkingMB": 485.80078125,
+      "ManagedMB": 88.38551330566406,
+      "Handles": 1289
+    },
+    {
+      "Seconds": 80.1136199,
+      "PreviewFPS": 28.163017452002705,
+      "PrivateMB": 491.7734375,
+      "WorkingMB": 488.140625,
+      "ManagedMB": 90.64576721191406,
+      "Handles": 1294
+    },
+    {
+      "Seconds": 90.1227016,
+      "PreviewFPS": 28.37423137429282,
+      "PrivateMB": 492.53125,
+      "WorkingMB": 488.9140625,
+      "ManagedMB": 85.78775024414062,
+      "Handles": 1289
+    },
+    {
+      "Seconds": 100.1342837,
+      "PreviewFPS": 28.46702920210783,
+      "PrivateMB": 492.6015625,
+      "WorkingMB": 488.96875,
+      "ManagedMB": 88.05463409423828,
+      "Handles": 1294
+    },
+    {
+      "Seconds": 110.143988,
+      "PreviewFPS": 29.071787864902277,
+      "PrivateMB": 492.55859375,
+      "WorkingMB": 488.94140625,
+      "ManagedMB": 90.43620300292969,
+      "Handles": 1289
+    },
+    {
+      "Seconds": 120.1664428,
+      "PreviewFPS": 28.236595290008175,
+      "PrivateMB": 492.53515625,
+      "WorkingMB": 488.9375,
+      "ManagedMB": 85.58354949951172,
+      "Handles": 1287
+    },
+    {
+      "Seconds": 130.1884096,
+      "PreviewFPS": 28.23797021558682,
+      "PrivateMB": 489.765625,
+      "WorkingMB": 486.2265625,
+      "ManagedMB": 86.49168395996094,
+      "Handles": 1292
+    },
+    {
+      "Seconds": 140.2105242,
+      "PreviewFPS": 28.93600917315391,
+      "PrivateMB": 489.765625,
+      "WorkingMB": 486.23828125,
+      "ManagedMB": 88.8515396118164,
+      "Handles": 1292
+    },
+    {
+      "Seconds": 150.2255255,
+      "PreviewFPS": 28.55716054674902,
+      "PrivateMB": 491.94921875,
+      "WorkingMB": 487.08203125,
+      "ManagedMB": 91.14896392822266,
+      "Handles": 1293
+    },
+    {
+      "Seconds": 160.2415531,
+      "PreviewFPS": 27.95519453241123,
+      "PrivateMB": 492.41796875,
+      "WorkingMB": 486.75,
+      "ManagedMB": 87.22819519042969,
+      "Handles": 1290
+    },
+    {
+      "Seconds": 170.2542975,
+      "PreviewFPS": 27.564870226788166,
+      "PrivateMB": 492.41796875,
+      "WorkingMB": 486.75390625,
+      "ManagedMB": 89.47303771972656,
+      "Handles": 1290
+    },
+    {
+      "Seconds": 180.2637754,
+      "PreviewFPS": 28.273202940984625,
+      "PrivateMB": 492.44140625,
+      "WorkingMB": 486.77734375,
+      "ManagedMB": 91.8200454711914,
+      "Handles": 1288
+    },
+    {
+      "Seconds": 190.2800594,
+      "PreviewFPS": 27.654966652303354,
+      "PrivateMB": 492.484375,
+      "WorkingMB": 486.8046875,
+      "ManagedMB": 86.95271301269531,
+      "Handles": 1293
+    },
+    {
+      "Seconds": 200.3003511,
+      "PreviewFPS": 28.04309579131314,
+      "PrivateMB": 492.44140625,
+      "WorkingMB": 486.77734375,
+      "ManagedMB": 89.22197723388672,
+      "Handles": 1288
+    },
+    {
+      "Seconds": 210.3148937,
+      "PreviewFPS": 28.358758991149536,
+      "PrivateMB": 492.453125,
+      "WorkingMB": 486.7890625,
+      "ManagedMB": 91.57159423828125,
+      "Handles": 1286
+    },
+    {
+      "Seconds": 220.3254908,
+      "PreviewFPS": 28.07025367148176,
+      "PrivateMB": 492.52734375,
+      "WorkingMB": 486.84765625,
+      "ManagedMB": 93.81568908691406,
+      "Handles": 1291
+    },
+    {
+      "Seconds": 230.3399541,
+      "PreviewFPS": 27.95956124778053,
+      "PrivateMB": 492.4921875,
+      "WorkingMB": 486.828125,
+      "ManagedMB": 88.96162414550781,
+      "Handles": 1286
+    },
+    {
+      "Seconds": 240.3546923,
+      "PreviewFPS": 28.85746928461891,
+      "PrivateMB": 492.50390625,
+      "WorkingMB": 486.83984375,
+      "ManagedMB": 91.24585723876953,
+      "Handles": 1286
+    },
+    {
+      "Seconds": 250.3722254,
+      "PreviewFPS": 28.050818219906912,
+      "PrivateMB": 492.51953125,
+      "WorkingMB": 486.85546875,
+      "ManagedMB": 93.58055877685547,
+      "Handles": 1286
+    },
+    {
+      "Seconds": 260.3813451,
+      "PreviewFPS": 28.07439699217509,
+      "PrivateMB": 492.53515625,
+      "WorkingMB": 486.8671875,
+      "ManagedMB": 88.73907470703125,
+      "Handles": 1289
+    },
+    {
+      "Seconds": 270.3974001,
+      "PreviewFPS": 27.955118057957804,
+      "PrivateMB": 492.49609375,
+      "WorkingMB": 487.0859375,
+      "ManagedMB": 90.97532653808594,
+      "Handles": 1284
+    },
+    {
+      "Seconds": 280.4182335,
+      "PreviewFPS": 28.04157985502495,
+      "PrivateMB": 492.5703125,
+      "WorkingMB": 484.71484375,
+      "ManagedMB": 93.3111343383789,
+      "Handles": 1284
+    },
+    {
+      "Seconds": 290.4317373,
+      "PreviewFPS": 28.16197063808967,
+      "PrivateMB": 492.73046875,
+      "WorkingMB": 485.22265625,
+      "ManagedMB": 95.5480728149414,
+      "Handles": 1293
+    },
+    {
+      "Seconds": 300.4424949,
+      "PreviewFPS": 27.67023346964276,
+      "PrivateMB": 507.60546875,
+      "WorkingMB": 499.80859375,
+      "ManagedMB": 87.75780487060547,
+      "Handles": 1298
+    },
+    {
+      "Seconds": 310.4547185,
+      "PreviewFPS": 28.36532735845005,
+      "PrivateMB": 507.62109375,
+      "WorkingMB": 499.83984375,
+      "ManagedMB": 90.10232543945312,
+      "Handles": 1298
+    },
+    {
+      "Seconds": 320.4743474,
+      "PreviewFPS": 28.14475494197199,
+      "PrivateMB": 507.546875,
+      "WorkingMB": 499.75390625,
+      "ManagedMB": 92.36267852783203,
+      "Handles": 1288
+    },
+    {
+      "Seconds": 330.4849992,
+      "PreviewFPS": 28.469674671932935,
+      "PrivateMB": 507.609375,
+      "WorkingMB": 499.81640625,
+      "ManagedMB": 86.80496215820312,
+      "Handles": 1288
+    },
+    {
+      "Seconds": 340.5033075,
+      "PreviewFPS": 28.5477339522482,
+      "PrivateMB": 509.171875,
+      "WorkingMB": 500.6875,
+      "ManagedMB": 89.0656509399414,
+      "Handles": 1288
+    },
+    {
+      "Seconds": 350.5130262,
+      "PreviewFPS": 29.47135767161966,
+      "PrivateMB": 509.18359375,
+      "WorkingMB": 500.72265625,
+      "ManagedMB": 91.45564270019531,
+      "Handles": 1294
+    },
+    {
+      "Seconds": 360.533501,
+      "PreviewFPS": 28.840948734285558,
+      "PrivateMB": 509.2109375,
+      "WorkingMB": 500.75390625,
+      "ManagedMB": 93.73931121826172,
+      "Handles": 1294
+    },
+    {
+      "Seconds": 370.5540973,
+      "PreviewFPS": 28.142037814655737,
+      "PrivateMB": 509.2734375,
+      "WorkingMB": 500.83203125,
+      "ManagedMB": 88.14241027832031,
+      "Handles": 1294
+    },
+    {
+      "Seconds": 380.5683253,
+      "PreviewFPS": 28.55936573443304,
+      "PrivateMB": 509.28125,
+      "WorkingMB": 500.83984375,
+      "ManagedMB": 90.50841522216797,
+      "Handles": 1294
+    },
+    {
+      "Seconds": 390.5800815,
+      "PreviewFPS": 28.96594705332523,
+      "PrivateMB": 509.25,
+      "WorkingMB": 500.8203125,
+      "ManagedMB": 92.76924133300781,
+      "Handles": 1288
+    },
+    {
+      "Seconds": 400.5974964,
+      "PreviewFPS": 28.450453819178424,
+      "PrivateMB": 509.37890625,
+      "WorkingMB": 500.92578125,
+      "ManagedMB": 87.18915557861328,
+      "Handles": 1288
+    },
+    {
+      "Seconds": 410.6098253,
+      "PreviewFPS": 28.664659627791494,
+      "PrivateMB": 509.37890625,
+      "WorkingMB": 500.92578125,
+      "ManagedMB": 89.46607971191406,
+      "Handles": 1288
+    },
+    {
+      "Seconds": 420.619264,
+      "PreviewFPS": 28.27331366742879,
+      "PrivateMB": 509.38671875,
+      "WorkingMB": 500.93359375,
+      "ManagedMB": 91.8084487915039,
+      "Handles": 1288
+    },
+    {
+      "Seconds": 430.6373967,
+      "PreviewFPS": 28.448415341912902,
+      "PrivateMB": 509.5546875,
+      "WorkingMB": 501.09375,
+      "ManagedMB": 86.22307586669922,
+      "Handles": 1289
+    },
+    {
+      "Seconds": 440.6566343,
+      "PreviewFPS": 28.345470118405025,
+      "PrivateMB": 509.51171875,
+      "WorkingMB": 501.0703125,
+      "ManagedMB": 88.46728515625,
+      "Handles": 1284
+    },
+    {
+      "Seconds": 450.6756474,
+      "PreviewFPS": 28.44591549640754,
+      "PrivateMB": 509.52734375,
+      "WorkingMB": 501.0859375,
+      "ManagedMB": 90.79674530029297,
+      "Handles": 1284
+    },
+    {
+      "Seconds": 460.6974259,
+      "PreviewFPS": 29.3361103520698,
+      "PrivateMB": 509.484375,
+      "WorkingMB": 501.1171875,
+      "ManagedMB": 87.96502685546875,
+      "Handles": 1283
+    },
+    {
+      "Seconds": 470.715967,
+      "PreviewFPS": 27.948180998129576,
+      "PrivateMB": 509.5234375,
+      "WorkingMB": 501.1171875,
+      "ManagedMB": 87.01537322998047,
+      "Handles": 1283
+    },
+    {
+      "Seconds": 480.7253289,
+      "PreviewFPS": 28.67315647763707,
+      "PrivateMB": 509.46484375,
+      "WorkingMB": 501.07421875,
+      "ManagedMB": 89.2972183227539,
+      "Handles": 1278
+    },
+    {
+      "Seconds": 490.7333633,
+      "PreviewFPS": 27.877602019433546,
+      "PrivateMB": 509.46484375,
+      "WorkingMB": 501.07421875,
+      "ManagedMB": 91.63188171386719,
+      "Handles": 1278
+    },
+    {
+      "Seconds": 500.7544985,
+      "PreviewFPS": 28.439891720051826,
+      "PrivateMB": 509.90234375,
+      "WorkingMB": 501.46484375,
+      "ManagedMB": 86.48981475830078,
+      "Handles": 1278
+    },
+    {
+      "Seconds": 510.7771051,
+      "PreviewFPS": 27.936844293579227,
+      "PrivateMB": 509.90234375,
+      "WorkingMB": 501.46484375,
+      "ManagedMB": 88.7508544921875,
+      "Handles": 1278
+    },
+    {
+      "Seconds": 520.7917252,
+      "PreviewFPS": 28.65810156892537,
+      "PrivateMB": 509.90625,
+      "WorkingMB": 501.46875,
+      "ManagedMB": 91.1053695678711,
+      "Handles": 1278
+    },
+    {
+      "Seconds": 530.8133403,
+      "PreviewFPS": 29.13702003981352,
+      "PrivateMB": 509.90625,
+      "WorkingMB": 501.46875,
+      "ManagedMB": 93.39663696289062,
+      "Handles": 1278
+    },
+    {
+      "Seconds": 540.8337387,
+      "PreviewFPS": 28.74137219933298,
+      "PrivateMB": 509.97265625,
+      "WorkingMB": 501.51171875,
+      "ManagedMB": 87.82363891601562,
+      "Handles": 1278
+    },
+    {
+      "Seconds": 550.8527397,
+      "PreviewFPS": 28.545760201041993,
+      "PrivateMB": 509.97265625,
+      "WorkingMB": 501.51171875,
+      "ManagedMB": 90.09294891357422,
+      "Handles": 1278
+    },
+    {
+      "Seconds": 560.8724317,
+      "PreviewFPS": 27.845167296559715,
+      "PrivateMB": 509.9765625,
+      "WorkingMB": 501.515625,
+      "ManagedMB": 92.43338775634766,
+      "Handles": 1278
+    },
+    {
+      "Seconds": 570.8930389,
+      "PreviewFPS": 28.541184610050458,
+      "PrivateMB": 510.04296875,
+      "WorkingMB": 501.60546875,
+      "ManagedMB": 86.828857421875,
+      "Handles": 1278
+    },
+    {
+      "Seconds": 580.915887,
+      "PreviewFPS": 28.634575435698668,
+      "PrivateMB": 510.04296875,
+      "WorkingMB": 501.58984375,
+      "ManagedMB": 89.09732818603516,
+      "Handles": 1278
+    },
+    {
+      "Seconds": 590.93749,
+      "PreviewFPS": 28.33877973414026,
+      "PrivateMB": 510.07421875,
+      "WorkingMB": 501.62109375,
+      "ManagedMB": 91.4446792602539,
+      "Handles": 1280
+    },
+    {
+      "Seconds": 600.0099693,
+      "PreviewFPS": 28.658097902742163,
+      "PrivateMB": 510.07421875,
+      "WorkingMB": 501.62109375,
+      "ManagedMB": 93.51807403564453,
+      "Handles": 1280
+    }
+  ]
+}

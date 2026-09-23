@@ -1,0 +1,8 @@
+{
+  "ColdInitializationMs": 1082.5,
+  "PrivateMBBefore": 159.6,
+  "PrivateMBAfterInitialize": 356.4,
+  "MeanSentenceMs": 190.3,
+  "MinimumSentenceMs": 159.1,
+  "MaximumSentenceMs": 223.5
+}

@@ -1,0 +1,104 @@
+{
+  "CoordinateSpace": "selected monitor physical pixels",
+  "GroundTruthMethod": "manual visible page boundary annotation",
+  "EditAcceptanceIoU": 0.85,
+  "FullscreenAcceptanceIoU": 0.95,
+  "ConfidenceNote": "heuristic feature score, not a calibrated probability",
+  "Cases": [
+    {
+      "Case": "WPS 编辑 16:9",
+      "GroundTruth": {
+        "X": 587,
+        "Y": 337,
+        "Width": 1709,
+        "Height": 963
+      },
+      "Detected": {
+        "X": 586.6666666666666,
+        "Y": 337.33234421364983,
+        "Width": 1708.8,
+        "Height": 962.8916913946588
+      },
+      "IoU": 0.9990595437961469,
+      "Confidence": 0.9509157041937307,
+      "Method": "Closed edge contour",
+      "LatencyMs": 47.0932
+    },
+    {
+      "Case": "WPS 编辑 4:3",
+      "GroundTruth": {
+        "X": 799,
+        "Y": 337,
+        "Width": 1284,
+        "Height": 963
+      },
+      "Detected": {
+        "X": 800.0,
+        "Y": 337.33234421364983,
+        "Width": 1282.1333333333334,
+        "Height": 962.8916913946588
+      },
+      "IoU": 0.9984508188159332,
+      "Confidence": 0.9555565623673593,
+      "Method": "Closed edge contour",
+      "LatencyMs": 53.2378
+    },
+    {
+      "Case": "WPS 编辑 4:3 + 右侧属性面板",
+      "GroundTruth": {
+        "X": 572,
+        "Y": 337,
+        "Width": 1284,
+        "Height": 963
+      },
+      "Detected": {
+        "X": 571.7333333333333,
+        "Y": 337.33234421364983,
+        "Width": 1284.2666666666667,
+        "Height": 962.8916913946588
+      },
+      "IoU": 0.9999048180940404,
+      "Confidence": 0.9446058957244355,
+      "Method": "Colour contrast contour",
+      "LatencyMs": 30.4093
+    },
+    {
+      "Case": "WPS 全屏 16:9",
+      "GroundTruth": {
+        "X": 0,
+        "Y": 0,
+        "Width": 2560,
+        "Height": 1440
+      },
+      "Detected": {
+        "X": 0.0,
+        "Y": 0.0,
+        "Width": 2560.0,
+        "Height": 1440.0
+      },
+      "IoU": 1.0,
+      "Confidence": 0.9615037909328716,
+      "Method": "Fullscreen uniform-border scan",
+      "LatencyMs": 9.2826
+    },
+    {
+      "Case": "WPS 全屏 4:3",
+      "GroundTruth": {
+        "X": 320,
+        "Y": 0,
+        "Width": 1920,
+        "Height": 1440
+      },
+      "Detected": {
+        "X": 320.0,
+        "Y": 0.0,
+        "Width": 1920.0,
+        "Height": 1440.0
+      },
+      "IoU": 1.0,
+      "Confidence": 0.9659252615985887,
+      "Method": "Fullscreen uniform-border scan",
+      "LatencyMs": 10.3121
+    }
+  ]
+}

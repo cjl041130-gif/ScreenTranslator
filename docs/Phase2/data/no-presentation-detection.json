@@ -1,0 +1,14 @@
+{
+  "Timestamp": "2026-09-12T13:42:49.6004866+00:00",
+  "Error": null,
+  "Target": null,
+  "Search": {
+    "X": 0,
+    "Y": 0,
+    "Width": 0,
+    "Height": 0
+  },
+  "Region": null,
+  "LatencyMs": 0.0023,
+  "Candidates": []
+}

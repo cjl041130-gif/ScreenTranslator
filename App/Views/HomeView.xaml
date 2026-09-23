@@ -1,0 +1,109 @@
+<UserControl x:Class="ScreenTranslator.Views.HomeView"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+    <StackPanel>
+        <DockPanel Margin="0,0,0,12">
+            <StackPanel>
+                <TextBlock Text="屏幕翻译器" FontSize="21" FontWeight="SemiBold"/>
+                <TextBlock Text="选择显示器，开始实时识别与翻译" Style="{StaticResource Caption}" Margin="0,2,0,0"/>
+            </StackPanel>
+        </DockPanel>
+
+        <Border Style="{StaticResource CardStyle}" Padding="11" Margin="0,0,0,8">
+            <StackPanel>
+            <DockPanel Margin="0,0,0,6">
+                    <Button DockPanel.Dock="Right" Content="刷新" Padding="9,5" FontSize="12"
+                            Command="{Binding Capture.RefreshCommand}"/>
+                    <TextBlock Text="当前显示器" FontWeight="SemiBold" VerticalAlignment="Center"/>
+                </DockPanel>
+                <ComboBox ItemsSource="{Binding Capture.Monitors}"
+                          SelectedItem="{Binding Capture.SelectedMonitor}"
+                          IsEnabled="{Binding Capture.CanSelectMonitor}"
+                          ToolTip="{Binding Capture.SelectedMonitor.DisplayLabel}"
+                          AutomationProperties.AutomationId="HomeMonitorPicker">
+                    <ComboBox.ItemTemplate>
+                        <DataTemplate><TextBlock Text="{Binding DisplayLabel}" TextTrimming="CharacterEllipsis" TextWrapping="NoWrap" ToolTip="{Binding DisplayLabel}"/></DataTemplate>
+                    </ComboBox.ItemTemplate>
+                </ComboBox>
+                <WrapPanel Margin="0,7,0,0">
+                    <Button Style="{StaticResource PrimaryButton}" Padding="13,7" Margin="0,0,6,0"
+                            Command="{Binding Capture.StartCommand}"
+                            AutomationProperties.AutomationId="StartCapture">
+                        <StackPanel Orientation="Horizontal">
+                            <TextBlock Text="&#xE768;" Style="{StaticResource Icon}" FontSize="13" Margin="0,0,7,0"/>
+                            <TextBlock Text="{Binding Capture.StartLabel}"/>
+                        </StackPanel>
+                    </Button>
+                    <Button Padding="11,7" Margin="0,0,6,0" Command="{Binding Capture.PauseCommand}"
+                            AutomationProperties.AutomationId="Pause">
+                        <StackPanel Orientation="Horizontal">
+                            <TextBlock Text="&#xE769;" Style="{StaticResource Icon}" FontSize="13" Margin="0,0,7,0"/>
+                            <TextBlock Text="暂停 / 继续"/>
+                        </StackPanel>
+                    </Button>
+                    <Button Style="{StaticResource DangerButton}" Padding="11,7" Command="{Binding Capture.StopCommand}"
+                            AutomationProperties.AutomationId="Stop">
+                        <StackPanel Orientation="Horizontal">
+                            <TextBlock Text="&#xE71A;" Style="{StaticResource Icon}" FontSize="13" Margin="0,0,7,0"/>
+                            <TextBlock Text="停止"/>
+                        </StackPanel>
+                    </Button>
+                </WrapPanel>
+            </StackPanel>
+        </Border>
+
+        <Border Style="{StaticResource CardStyle}" Padding="9" Margin="0,0,0,8">
+            <StackPanel>
+            <UniformGrid Columns="2">
+                <StackPanel Margin="1,1,6,5">
+                    <TextBlock Text="识别状态 · English → 中文" Style="{StaticResource Caption}"/>
+                    <TextBlock Text="{Binding Capture.StateLabel}" FontWeight="SemiBold" TextTrimming="CharacterEllipsis" TextWrapping="NoWrap" ToolTip="{Binding Capture.StateLabel}"/>
+                </StackPanel>
+                <StackPanel Margin="1,1,1,5">
+                    <TextBlock Text="翻译状态" Style="{StaticResource Caption}"/>
+                    <TextBlock Text="{Binding Capture.ActiveTranslationStatus}" FontWeight="SemiBold" TextTrimming="CharacterEllipsis" TextWrapping="NoWrap" ToolTip="{Binding Capture.ActiveTranslationStatus}"/>
+                </StackPanel>
+                <StackPanel Margin="1,1,6,1">
+                    <TextBlock Text="帧率 · FPS" Style="{StaticResource Caption}"/>
+                    <TextBlock Text="{Binding Capture.FpsText}" FontWeight="SemiBold"/>
+                </StackPanel>
+                <StackPanel Margin="1,1,1,1">
+                    <TextBlock Text="捕获分辨率" Style="{StaticResource Caption}"/>
+                    <TextBlock Text="{Binding Capture.ResolutionValue}" FontWeight="SemiBold" TextTrimming="CharacterEllipsis" ToolTip="{Binding Capture.ResolutionValue}"/>
+                </StackPanel>
+            </UniformGrid>
+            </StackPanel>
+        </Border>
+
+        <Border Style="{StaticResource CardStyle}" Padding="9">
+            <StackPanel>
+                <DockPanel Margin="0,0,0,5">
+                    <TextBlock Text="最近翻译结果" FontWeight="SemiBold"/>
+                    <TextBlock Text="{Binding Capture.LatestRecognitionSummary}" Style="{StaticResource Caption}" HorizontalAlignment="Right" TextTrimming="CharacterEllipsis" TextWrapping="NoWrap"/>
+                </DockPanel>
+                <TextBox x:Name="LatestResultText"
+                         Text="{Binding Capture.TranslatedBlocks[0].TranslatedText}"
+                         IsReadOnly="True" IsReadOnlyCaretVisible="True" TextWrapping="Wrap"
+                         VerticalScrollBarVisibility="Disabled" HorizontalScrollBarVisibility="Disabled"
+                         MinHeight="32" MaxHeight="48" Padding="4,3" BorderThickness="0"
+                         Background="{StaticResource Canvas}" ToolTip="可选择文字并按 Ctrl+C 复制"/>
+                <Expander Header="展开全部结果" Foreground="{StaticResource Accent}" FontSize="12" Margin="0,4,0,0">
+                    <ItemsControl ItemsSource="{Binding Capture.TranslatedBlocks}" MaxHeight="180" Margin="0,5,0,0">
+                        <ItemsControl.ItemTemplate>
+                            <DataTemplate>
+                                <Border BorderBrush="{StaticResource Line}" BorderThickness="0,1,0,0" Padding="0,6">
+                                    <StackPanel>
+                                        <TextBlock Text="{Binding Source.OriginalText}" Style="{StaticResource Caption}" TextTrimming="CharacterEllipsis" MaxHeight="18"/>
+                                        <TextBox Text="{Binding TranslatedText}" IsReadOnly="True" IsReadOnlyCaretVisible="True"
+                                                 TextWrapping="Wrap" VerticalScrollBarVisibility="Auto" MaxHeight="90"
+                                                 Padding="3" BorderThickness="0" Background="{StaticResource Canvas}"/>
+                                    </StackPanel>
+                                </Border>
+                            </DataTemplate>
+                        </ItemsControl.ItemTemplate>
+                    </ItemsControl>
+                </Expander>
+            </StackPanel>
+        </Border>
+    </StackPanel>
+</UserControl>

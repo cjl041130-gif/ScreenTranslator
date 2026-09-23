@@ -1,0 +1,45 @@
+{
+  "MeasuredAt": "2026-09-13",
+  "Machine": {
+    "Monitor": "2560x1440",
+    "WindowsScale": "150%",
+    "PresentationApp": "WPS Office 12.1.0.28505",
+    "RuntimeNetwork": "Unavailable / offline"
+  },
+  "ActualPhase3Run": {
+    "ActiveCaptureSeconds": 520.37,
+    "PositiveFpsSamples": 47,
+    "AverageCaptureFps": 29.947,
+    "MinimumCaptureFps": 29.5,
+    "MaximumCaptureFps": 30.3,
+    "InitialEditor": {
+      "OcrMs": 36.0,
+      "TranslationMs": 0.3,
+      "TotalMs": 88.4,
+      "Blocks": 1
+    },
+    "SecondChangedSlide": {
+      "OcrMs": 14.2,
+      "TranslationMs": 0.1,
+      "TotalMs": 15.6,
+      "Blocks": 1
+    },
+    "CacheHitsObserved": 4,
+    "FinalProcessSnapshot": {
+      "PrivateMB": 482.82,
+      "WorkingMB": 387.63,
+      "Handles": 1226,
+      "Note": "Single snapshot before clean Stop/exit; not a growth measurement"
+    }
+  },
+  "ExistingProtectedCoreSoak": {
+    "DurationSeconds": 600,
+    "AveragePreviewFps": 28.125171624901235,
+    "MinimumIntervalFps": 25.59734760284139,
+    "PrivateBaselineMB": 275.4,
+    "PrivateEndingMB": 278.3,
+    "PrivateDeltaMB": 2.9,
+    "HandleGrowth": "less than 30",
+    "Source": "docs/test-results/soak-10min/result.json"
+  }
+}

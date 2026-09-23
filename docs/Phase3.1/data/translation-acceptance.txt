@@ -1,0 +1,40 @@
+EN: The meeting starts at nine o'clock tomorrow morning.
+ZH: 明早九点开会。
+MS: 187.3
+
+EN: Please review the quarterly sales report before Friday.
+ZH: 请在星期五前审查季度销售报告。
+MS: 205.7
+
+EN: Our new system improves accuracy and reduces processing time.
+ZH: 我们的新系统提高了准确性，减少了处理时间。
+MS: 223.5
+
+EN: Students can access the course materials from any device.
+ZH: 学生可以从任何设备上获取教材。
+MS: 185.4
+
+EN: This chart shows the growth of renewable energy in Asia.
+ZH: 本图显示了亚洲可再生能源的增长。
+MS: 159.1
+
+EN: Data privacy is essential for every organization.
+ZH: 数据隐私对每个组织都至关重要。
+MS: 189.2
+
+EN: The project team completed all major tasks on schedule.
+ZH: 项目小组按时完成了所有主要任务。
+MS: 179.3
+
+EN: Artificial intelligence helps people understand complex information quickly.
+ZH: 人工智能能帮助人们快速理解复杂的信息。
+MS: 194.6
+
+EN: Customer feedback helps us improve product quality.
+ZH: 客户反馈有助于我们提高产品质量。
+MS: 177.7
+
+EN: Turn off the computer after the presentation has finished.
+ZH: 演示文稿完成后关闭计算机。
+MS: 201.4
+

@@ -1,0 +1,42 @@
+{
+  "GeneratedAt": "2026-09-13T16:32:17.9306775+08:00",
+  "Package": "en-zh",
+  "TotalBytes": 4343.0,
+  "Files": [
+    {
+      "Path": "ModelsData\\Translation\\en-zh\\config.json",
+      "Bytes": 141,
+      "SHA256": "096DBAEBBE07E833D301C5417025D029E6C7F90F9E1E5B5C3990A12CF50DD37D"
+    },
+    {
+      "Path": "ModelsData\\Translation\\en-zh\\LICENSE.txt",
+      "Bytes": 1105,
+      "SHA256": "60BB0FDF77AD30125EB3F2DDBBBDC41E2DFE7519DD1BDB0F5744C253AE837D57"
+    },
+    {
+      "Path": "ModelsData\\Translation\\en-zh\\metadata.json",
+      "Bytes": 251,
+      "SHA256": "11CAC0FEB2FAEF2F3EB49930922F32D3FFA0B71E1CA1FD3CF8DED149CD747118"
+    },
+    {
+      "Path": "ModelsData\\Translation\\en-zh\\README.md",
+      "Bytes": 965,
+      "SHA256": "0089B2B432DDA077DA7E7C5FD45EA8238D046A29AB2A3CA50C00452A50F25241"
+    },
+    {
+      "Path": "ModelsData\\Translation\\en-zh\\vocabulary.json",
+      "Bytes": 109,
+      "SHA256": "017A15890AD6F04B77B6A5E8005FCF374CA895277CD4A5FCA2047E091B85A878"
+    },
+    {
+      "Path": "ModelsData\\Translation\\en-zh\\model\\phrase-table.json",
+      "Bytes": 1684,
+      "SHA256": "55F4CD4E350593AA5D4176C24082D7EA5BF2AF6ECE3D4B91EC18D70A3C8F511F"
+    },
+    {
+      "Path": "ModelsData\\Translation\\en-zh\\tokenizer\\rules.json",
+      "Bytes": 88,
+      "SHA256": "5F48F5B36035403C5326C60F8C4496CA352BE0F527E3C873BE9550BD8783358A"
+    }
+  ]
+}

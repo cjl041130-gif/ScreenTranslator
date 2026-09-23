@@ -1,0 +1,7 @@
+<UserControl x:Class="ScreenTranslator.Views.PreviewPane" xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml" xmlns:local="clr-namespace:ScreenTranslator.Views">
+ <Border Background="{StaticResource PreviewCanvas}" CornerRadius="10" Padding="10"><Grid>
+ <StackPanel VerticalAlignment="Center" HorizontalAlignment="Center" Margin="16"><StackPanel.Style><Style TargetType="StackPanel"><Setter Property="Visibility" Value="Collapsed"/><Style.Triggers><DataTrigger Binding="{Binding Preview}" Value="{x:Null}"><Setter Property="Visibility" Value="Visible"/></DataTrigger></Style.Triggers></Style></StackPanel.Style><TextBlock Text="&#xE7F4;" Style="{StaticResource Icon}" FontSize="38" Foreground="{StaticResource Muted}" HorizontalAlignment="Center" Margin="0,0,0,16"/><TextBlock Text="尚未开始识别" FontSize="16" HorizontalAlignment="Center"/><TextBlock Text="点击“开始识别”后查看屏幕检测结果" Style="{StaticResource BodyMuted}" Margin="0,7,0,0" TextAlignment="Center"/></StackPanel>
+ <Image Source="{Binding Preview}" Stretch="Uniform" RenderOptions.BitmapScalingMode="LowQuality" AutomationProperties.AutomationId="ScreenPreview"/>
+ <local:PresentationPreviewOverlay Frame="{Binding Preview}" Snapshot="{Binding Detection}" RecognitionResult="{Binding RecognitionResult}" ShowOcrBlocks="True" ShowSearch="{Binding ShowSearchRegion}" ShowCandidates="{Binding ShowCandidates}" ShowScores="{Binding ShowCandidateScore}" ShowStable="{Binding ShowStableRegion}" IsHitTestVisible="False"/></Grid></Border>
+</UserControl>
+

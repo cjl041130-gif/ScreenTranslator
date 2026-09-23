@@ -1,0 +1,740 @@
+{
+  "Timestamp": "2026-09-19T07:15:33.7072127+00:00",
+  "Error": null,
+  "Target": {
+    "Handle": 3543784,
+    "ProcessName": "wpp",
+    "Title": "Phase3Acceptance.pptx - WPS Office",
+    "ClassName": "PP12FrameClass",
+    "DpiScale": 1.5,
+    "IsFullscreen": false,
+    "IsForeground": false,
+    "IsLastExternalForeground": true,
+    "Client": {
+      "X": 0,
+      "Y": 0,
+      "Width": 2560,
+      "Height": 1439
+    }
+  },
+  "Search": {
+    "X": 0,
+    "Y": 0,
+    "Width": 2560,
+    "Height": 1439
+  },
+  "Region": {
+    "Bounds": {
+      "X": 533.3333333333334,
+      "Y": 277.5519287833828,
+      "Width": 1815.4666666666667,
+      "Height": 1022.6721068249258
+    },
+    "Confidence": 0.9499154772195328,
+    "AspectRatio": 1.7752187182489194,
+    "DetectionMethod": "Closed edge contour"
+  },
+  "LatencyMs": 27.6882,
+  "Candidates": [
+    {
+      "Bounds": {
+        "X": 533.3333333333334,
+        "Y": 277.5519287833828,
+        "Width": 1815.4666666666667,
+        "Height": 1022.6721068249258
+      },
+      "Method": "Closed edge contour",
+      "Scores": {
+        "AreaScore": 1,
+        "AspectRatioScore": 0.9960528348202238,
+        "RectangleCompletenessScore": 0.9955940328092456,
+        "EdgeScore": 1,
+        "CenterScore": 0.9207306157427594,
+        "WindowContainmentScore": 0.9999999999999999,
+        "InteriorScore": 0.5329583985075381,
+        "TemporalStabilityScore": 0.9999999999999998,
+        "FinalScore": 0.9499154772195328
+      }
+    },
+    {
+      "Bounds": {
+        "X": 533.3333333333334,
+        "Y": 219.90652818991097,
+        "Width": 1813.3333333333333,
+        "Height": 1076.047477744807
+      },
+      "Method": "Line intersection",
+      "Scores": {
+        "AreaScore": 1,
+        "AspectRatioScore": 0.8709266074491762,
+        "RectangleCompletenessScore": 1,
+        "EdgeScore": 0.9759500000000001,
+        "CenterScore": 0.9320332963983471,
+        "WindowContainmentScore": 0.9999999999999999,
+        "InteriorScore": 0.537298776103648,
+        "TemporalStabilityScore": 0.941639048815664,
+        "FinalScore": 0.8875710580299109
+      }
+    },
+    {
+      "Bounds": {
+        "X": 381.8666666666667,
+        "Y": 185.74629080118694,
+        "Width": 1964.8,
+        "Height": 1110.207715133531
+      },
+      "Method": "Line intersection",
+      "Scores": {
+        "AreaScore": 1,
+        "AspectRatioScore": 0.9877072170064949,
+        "RectangleCompletenessScore": 1,
+        "EdgeScore": 0.6584235826113392,
+        "CenterScore": 0.9638940802942106,
+        "WindowContainmentScore": 1,
+        "InteriorScore": 0.5531277836526431,
+        "TemporalStabilityScore": 0.8427579354768974,
+        "FinalScore": 0.8614314878452399
+      }
+    },
+    {
+      "Bounds": {
+        "X": 381.8666666666667,
+        "Y": 219.90652818991097,
+        "Width": 1964.8,
+        "Height": 1076.047477744807
+      },
+      "Method": "Line intersection",
+      "Scores": {
+        "AreaScore": 1,
+        "AspectRatioScore": 0.9311887636838032,
+        "RectangleCompletenessScore": 1,
+        "EdgeScore": 0.7164148148148148,
+        "CenterScore": 0.9576121509991439,
+        "WindowContainmentScore": 0.9999999999999998,
+        "InteriorScore": 0.5474808380099403,
+        "TemporalStabilityScore": 0.8693871512105373,
+        "FinalScore": 0.8529262222089249
+      }
+    },
+    {
+      "Bounds": {
+        "X": 533.3333333333334,
+        "Y": 185.74629080118694,
+        "Width": 1813.3333333333333,
+        "Height": 1110.207715133531
+      },
+      "Method": "Line intersection",
+      "Scores": {
+        "AreaScore": 1,
+        "AspectRatioScore": 0.8100330280644805,
+        "RectangleCompletenessScore": 1,
+        "EdgeScore": 0.7882751937984496,
+        "CenterScore": 0.9357630908794916,
+        "WindowContainmentScore": 0.9999999999999999,
+        "InteriorScore": 0.5433793821563146,
+        "TemporalStabilityScore": 0.9128076743835251,
+        "FinalScore": 0.8215948880298595
+      }
+    },
+    {
+      "Bounds": {
+        "X": 381.8666666666667,
+        "Y": 277.5519287833828,
+        "Width": 1964.8,
+        "Height": 1018.4020771513353
+      },
+      "Method": "Line intersection",
+      "Scores": {
+        "AreaScore": 1,
+        "AspectRatioScore": 0.8153883451511768,
+        "RectangleCompletenessScore": 1,
+        "EdgeScore": 0.7168659165494609,
+        "CenterScore": 0.9428357474922139,
+        "WindowContainmentScore": 1,
+        "InteriorScore": 0.5453426410754312,
+        "TemporalStabilityScore": 0.918354866182253,
+        "FinalScore": 0.8101977629829223
+      }
+    },
+    {
+      "Bounds": {
+        "X": 411.73333333333335,
+        "Y": 111.02077151335311,
+        "Width": 1934.9333333333334,
+        "Height": 1184.933234421365
+      },
+      "Method": "Line intersection",
+      "Scores": {
+        "AreaScore": 1,
+        "AspectRatioScore": 0.8096134714318335,
+        "RectangleCompletenessScore": 1,
+        "EdgeScore": 0.7358082435552136,
+        "CenterScore": 0.9596839250110701,
+        "WindowContainmentScore": 1,
+        "InteriorScore": 0.5629767734128072,
+        "TemporalStabilityScore": 0.8019756153523591,
+        "FinalScore": 0.8035173554394391
+      }
+    },
+    {
+      "Bounds": {
+        "X": 533.3333333333334,
+        "Y": 78.99554896142433,
+        "Width": 1813.3333333333333,
+        "Height": 1216.9584569732938
+      },
+      "Method": "Line intersection",
+      "Scores": {
+        "AreaScore": 1,
+        "AspectRatioScore": 0.7655345449174836,
+        "RectangleCompletenessScore": 1,
+        "EdgeScore": 0.6287642324303102,
+        "CenterScore": 0.9336558698146397,
+        "WindowContainmentScore": 1,
+        "InteriorScore": 0.5717333239667168,
+        "TemporalStabilityScore": 0.8330953256664042,
+        "FinalScore": 0.7664802504832757
+      }
+    },
+    {
+      "Bounds": {
+        "X": 381.8666666666667,
+        "Y": 78.99554896142433,
+        "Width": 1964.8,
+        "Height": 1216.9584569732938
+      },
+      "Method": "Line intersection",
+      "Scores": {
+        "AreaScore": 1,
+        "AspectRatioScore": 0.7897725623314455,
+        "RectangleCompletenessScore": 1,
+        "EdgeScore": 0.5715137762996836,
+        "CenterScore": 0.9602658766990326,
+        "WindowContainmentScore": 0.9999999999999998,
+        "InteriorScore": 0.5781595299434334,
+        "TemporalStabilityScore": 0.7691373786159131,
+        "FinalScore": 0.7604771904672009
+      }
+    },
+    {
+      "Bounds": {
+        "X": 533.3333333333334,
+        "Y": 388.5727002967359,
+        "Width": 1813.3333333333333,
+        "Height": 907.3813056379822
+      },
+      "Method": "Line intersection",
+      "Scores": {
+        "AreaScore": 1,
+        "AspectRatioScore": 0.7564156676945154,
+        "RectangleCompletenessScore": 1,
+        "EdgeScore": 0.5736111111111111,
+        "CenterScore": 0.8942440808436803,
+        "WindowContainmentScore": 1,
+        "InteriorScore": 0.541674274827681,
+        "TemporalStabilityScore": 0.8862225209688221,
+        "FinalScore": 0.7517433578027568
+      }
+    },
+    {
+      "Bounds": {
+        "X": 533.3333333333334,
+        "Y": 414.19287833827894,
+        "Width": 1813.3333333333333,
+        "Height": 883.8961424332344
+      },
+      "Method": "Line intersection",
+      "Scores": {
+        "AreaScore": 1,
+        "AspectRatioScore": 0.7187620984284508,
+        "RectangleCompletenessScore": 1,
+        "EdgeScore": 0.5722222222222223,
+        "CenterScore": 0.886321527948865,
+        "WindowContainmentScore": 0.9999999999999999,
+        "InteriorScore": 0.4754061513936146,
+        "TemporalStabilityScore": 0.8632849968966878,
+        "FinalScore": 0.7292977601001357
+      }
+    },
+    {
+      "Bounds": {
+        "X": 420.26666666666665,
+        "Y": 397.1127596439169,
+        "Width": 1926.4,
+        "Height": 900.9762611275964
+      },
+      "Method": "Line intersection",
+      "Scores": {
+        "AreaScore": 1,
+        "AspectRatioScore": 0.6685669286464507,
+        "RectangleCompletenessScore": 1,
+        "EdgeScore": 0.51675,
+        "CenterScore": 0.9022339286599024,
+        "WindowContainmentScore": 1,
+        "InteriorScore": 0.5230486997232386,
+        "TemporalStabilityScore": 0.8341957464621681,
+        "FinalScore": 0.7020644997034714
+      }
+    },
+    {
+      "Bounds": {
+        "X": 381.8666666666667,
+        "Y": 388.5727002967359,
+        "Width": 1964.8,
+        "Height": 907.3813056379822
+      },
+      "Method": "Line intersection",
+      "Scores": {
+        "AreaScore": 1,
+        "AspectRatioScore": 0.6551669704204908,
+        "RectangleCompletenessScore": 1,
+        "EdgeScore": 0.4913720069386365,
+        "CenterScore": 0.9085583717279572,
+        "WindowContainmentScore": 1,
+        "InteriorScore": 0.5528191459679147,
+        "TemporalStabilityScore": 0.8251409306447633,
+        "FinalScore": 0.6942012110661772
+      }
+    },
+    {
+      "Bounds": {
+        "X": 381.8666666666667,
+        "Y": 414.19287833827894,
+        "Width": 1964.8,
+        "Height": 883.8961424332344
+      },
+      "Method": "Line intersection",
+      "Scores": {
+        "AreaScore": 1,
+        "AspectRatioScore": 0.6299552415622317,
+        "RectangleCompletenessScore": 1,
+        "EdgeScore": 0.48944564004463575,
+        "CenterScore": 0.8995009853166454,
+        "WindowContainmentScore": 0.9999999999999999,
+        "InteriorScore": 0.4960023850718986,
+        "TemporalStabilityScore": 0.805220777853797,
+        "FinalScore": 0.6779340061443622
+      }
+    },
+    {
+      "Bounds": {
+        "X": 19.2,
+        "Y": 111.02077151335311,
+        "Width": 2521.6,
+        "Height": 111.02077151335311
+      },
+      "Method": "Closed edge contour",
+      "Scores": {
+        "AreaScore": 0.2714073760067825,
+        "AspectRatioScore": 0.4500016158099633,
+        "RectangleCompletenessScore": 0.9793781725888325,
+        "EdgeScore": 1,
+        "CenterScore": 0.615727002967359,
+        "WindowContainmentScore": 1,
+        "InteriorScore": 0.6649709752924722,
+        "TemporalStabilityScore": 0,
+        "FinalScore": 0.5391371928996722
+      }
+    },
+    {
+      "Bounds": {
+        "X": 533.3333333333334,
+        "Y": 277.5519287833828,
+        "Width": 1813.3333333333333,
+        "Height": 140.91097922848664
+      },
+      "Method": "Line intersection",
+      "Scores": {
+        "AreaScore": 0.2477214921576939,
+        "AspectRatioScore": 0.45002767489586554,
+        "RectangleCompletenessScore": 1,
+        "EdgeScore": 0.5680555555555555,
+        "CenterScore": 0.734381931773077,
+        "WindowContainmentScore": 1,
+        "InteriorScore": 0.7923309217572228,
+        "TemporalStabilityScore": 0.13762514443280535,
+        "FinalScore": 0.4894231105361403
+      }
+    },
+    {
+      "Bounds": {
+        "X": 533.3333333333334,
+        "Y": 219.90652818991097,
+        "Width": 1813.3333333333333,
+        "Height": 194.28635014836794
+      },
+      "Method": "Line intersection",
+      "Scores": {
+        "AreaScore": 0.3415553907022749,
+        "AspectRatioScore": 0.4501379028619342,
+        "RectangleCompletenessScore": 1,
+        "EdgeScore": 0.5392361111111111,
+        "CenterScore": 0.7134279022206604,
+        "WindowContainmentScore": 0.9999999999999999,
+        "InteriorScore": 0.7043069840578138,
+        "TemporalStabilityScore": 0.1263415075979088,
+        "FinalScore": 0.4879661512887034
+      }
+    },
+    {
+      "Bounds": {
+        "X": 533.3333333333334,
+        "Y": 277.5519287833828,
+        "Width": 1813.3333333333333,
+        "Height": 136.64094955489614
+      },
+      "Method": "Line intersection",
+      "Scores": {
+        "AreaScore": 0.24021478027412743,
+        "AspectRatioScore": 0.45002372827612663,
+        "RectangleCompletenessScore": 1,
+        "EdgeScore": 0.5736111111111111,
+        "CenterScore": 0.7329396817375962,
+        "WindowContainmentScore": 0.9999999999999997,
+        "InteriorScore": 0.7624468417149315,
+        "TemporalStabilityScore": 0.13345468551059902,
+        "FinalScore": 0.4868488921895807
+      }
+    },
+    {
+      "Bounds": {
+        "X": 533.3333333333334,
+        "Y": 226.31157270029672,
+        "Width": 1813.3333333333333,
+        "Height": 187.8813056379822
+      },
+      "Method": "Line intersection",
+      "Scores": {
+        "AreaScore": 0.3302953228769252,
+        "AspectRatioScore": 0.45011662178340045,
+        "RectangleCompletenessScore": 1,
+        "EdgeScore": 0.5343253968253969,
+        "CenterScore": 0.7155994335065046,
+        "WindowContainmentScore": 0.9999999999999997,
+        "InteriorScore": 0.7057807203318233,
+        "TemporalStabilityScore": 0.12709419221594792,
+        "FinalScore": 0.485923268797828
+      }
+    },
+    {
+      "Bounds": {
+        "X": 381.8666666666667,
+        "Y": 277.5519287833828,
+        "Width": 1964.8,
+        "Height": 140.91097922848664
+      },
+      "Method": "Line intersection",
+      "Scores": {
+        "AreaScore": 0.26841352267910124,
+        "AspectRatioScore": 0.4500185303009607,
+        "RectangleCompletenessScore": 1,
+        "EdgeScore": 0.532452210274791,
+        "CenterScore": 0.7397497067954644,
+        "WindowContainmentScore": 1,
+        "InteriorScore": 0.7823118400968574,
+        "TemporalStabilityScore": 0.13606102130652536,
+        "FinalScore": 0.48521784833086434
+      }
+    },
+    {
+      "Bounds": {
+        "X": 381.8666666666667,
+        "Y": 219.90652818991097,
+        "Width": 1964.8,
+        "Height": 194.28635014836794
+      },
+      "Method": "Line intersection",
+      "Scores": {
+        "AreaScore": 0.37008531157270025,
+        "AspectRatioScore": 0.4500923357235883,
+        "RectangleCompletenessScore": 1,
+        "EdgeScore": 0.4954997276688453,
+        "CenterScore": 0.7183959798403159,
+        "WindowContainmentScore": 0.9999999999999997,
+        "InteriorScore": 0.695101092590728,
+        "TemporalStabilityScore": 0.12447373238147531,
+        "FinalScore": 0.48332990643826534
+      }
+    },
+    {
+      "Bounds": {
+        "X": 411.73333333333335,
+        "Y": 219.90652818991097,
+        "Width": 1934.9333333333334,
+        "Height": 198.55637982195844
+      },
+      "Method": "Line intersection",
+      "Scores": {
+        "AreaScore": 0.3724697965239508,
+        "AspectRatioScore": 0.450111132031598,
+        "RectangleCompletenessScore": 1,
+        "EdgeScore": 0.48207411504424785,
+        "CenterScore": 0.7191242462037155,
+        "WindowContainmentScore": 1,
+        "InteriorScore": 0.7181938747223663,
+        "TemporalStabilityScore": 0.12870514820592827,
+        "FinalScore": 0.48331949648178046
+      }
+    },
+    {
+      "Bounds": {
+        "X": 381.8666666666667,
+        "Y": 277.5519287833828,
+        "Width": 1964.8,
+        "Height": 136.64094955489614
+      },
+      "Method": "Line intersection",
+      "Scores": {
+        "AreaScore": 0.26027977956761333,
+        "AspectRatioScore": 0.45001588775979645,
+        "RectangleCompletenessScore": 1,
+        "EdgeScore": 0.5342728758169935,
+        "CenterScore": 0.7382778753432166,
+        "WindowContainmentScore": 0.9999999999999998,
+        "InteriorScore": 0.7546624002853493,
+        "TemporalStabilityScore": 0.1319834147311929,
+        "FinalScore": 0.48206773408698284
+      }
+    },
+    {
+      "Bounds": {
+        "X": 381.8666666666667,
+        "Y": 226.31157270029672,
+        "Width": 1964.8,
+        "Height": 187.8813056379822
+      },
+      "Method": "Line intersection",
+      "Scores": {
+        "AreaScore": 0.35788469690546837,
+        "AspectRatioScore": 0.4500780865357354,
+        "RectangleCompletenessScore": 1,
+        "EdgeScore": 0.4888032990974167,
+        "CenterScore": 0.7206061218167701,
+        "WindowContainmentScore": 0.9999999999999999,
+        "InteriorScore": 0.6966552378884643,
+        "TemporalStabilityScore": 0.12526567144932838,
+        "FinalScore": 0.4808615723084465
+      }
+    },
+    {
+      "Bounds": {
+        "X": 533.3333333333334,
+        "Y": 219.90652818991097,
+        "Width": 1813.3333333333333,
+        "Height": 177.20623145400594
+      },
+      "Method": "Line intersection",
+      "Scores": {
+        "AreaScore": 0.311528543168009,
+        "AspectRatioScore": 0.45008704759557827,
+        "RectangleCompletenessScore": 1,
+        "EdgeScore": 0.5371875,
+        "CenterScore": 0.7076331825524589,
+        "WindowContainmentScore": 0.9999999999999997,
+        "InteriorScore": 0.5972132892418682,
+        "TemporalStabilityScore": 0.11054881914817023,
+        "FinalScore": 0.4743215301215058
+      }
+    },
+    {
+      "Bounds": {
+        "X": 533.3333333333334,
+        "Y": 226.31157270029672,
+        "Width": 1813.3333333333333,
+        "Height": 170.80118694362017
+      },
+      "Method": "Line intersection",
+      "Scores": {
+        "AreaScore": 0.30026847534265927,
+        "AspectRatioScore": 0.45007241295204653,
+        "RectangleCompletenessScore": 1,
+        "EdgeScore": 0.5315789473684212,
+        "CenterScore": 0.709806865550939,
+        "WindowContainmentScore": 1,
+        "InteriorScore": 0.5940386246859402,
+        "TemporalStabilityScore": 0.11120741818895445,
+        "FinalScore": 0.4718114315096594
+      }
+    },
+    {
+      "Bounds": {
+        "X": 533.3333333333334,
+        "Y": 277.5519287833828,
+        "Width": 1813.3333333333333,
+        "Height": 119.56083086053413
+      },
+      "Method": "Line intersection",
+      "Scores": {
+        "AreaScore": 0.2101879327398615,
+        "AspectRatioScore": 0.4500121704448505,
+        "RectangleCompletenessScore": 1,
+        "EdgeScore": 0.5750000000000001,
+        "CenterScore": 0.7271662385694471,
+        "WindowContainmentScore": 0.9999999999999999,
+        "InteriorScore": 0.6191255531696647,
+        "TemporalStabilityScore": 0.11677284982177417,
+        "FinalScore": 0.4711234277256099
+      }
+    },
+    {
+      "Bounds": {
+        "X": 381.8666666666667,
+        "Y": 219.90652818991097,
+        "Width": 1964.8,
+        "Height": 177.20623145400594
+      },
+      "Method": "Line intersection",
+      "Scores": {
+        "AreaScore": 0.33755033912674864,
+        "AspectRatioScore": 0.45005828452442254,
+        "RectangleCompletenessScore": 1,
+        "EdgeScore": 0.4959919662309369,
+        "CenterScore": 0.7125011080215294,
+        "WindowContainmentScore": 0.9999999999999997,
+        "InteriorScore": 0.5953179554818966,
+        "TemporalStabilityScore": 0.10905625103099395,
+        "FinalScore": 0.4703737154904382
+      }
+    },
+    {
+      "Bounds": {
+        "X": 381.8666666666667,
+        "Y": 277.5519287833828,
+        "Width": 1964.8,
+        "Height": 119.56083086053413
+      },
+      "Method": "Line intersection",
+      "Scores": {
+        "AreaScore": 0.2277448071216617,
+        "AspectRatioScore": 0.4500081489739654,
+        "RectangleCompletenessScore": 1,
+        "EdgeScore": 0.5384269733534439,
+        "CenterScore": 0.7323892410219867,
+        "WindowContainmentScore": 0.9999999999999998,
+        "InteriorScore": 0.6239121830563386,
+        "TemporalStabilityScore": 0.11564485368253541,
+        "FinalScore": 0.4674454316541487
+      }
+    },
+    {
+      "Bounds": {
+        "X": 381.8666666666667,
+        "Y": 226.31157270029672,
+        "Width": 1964.8,
+        "Height": 170.80118694362017
+      },
+      "Method": "Line intersection",
+      "Scores": {
+        "AreaScore": 0.32534972445951665,
+        "AspectRatioScore": 0.4500484855950819,
+        "RectangleCompletenessScore": 1,
+        "EdgeScore": 0.488212360967779,
+        "CenterScore": 0.7147118785756841,
+        "WindowContainmentScore": 1,
+        "InteriorScore": 0.5926629044752315,
+        "TemporalStabilityScore": 0.10975100816446048,
+        "FinalScore": 0.46740060738389355
+      }
+    },
+    {
+      "Bounds": {
+        "X": 533.3333333333334,
+        "Y": 219.90652818991097,
+        "Width": 1813.3333333333333,
+        "Height": 168.66617210682492
+      },
+      "Method": "Line intersection",
+      "Scores": {
+        "AreaScore": 0.296515119400876,
+        "AspectRatioScore": 0.4500679988822831,
+        "RectangleCompletenessScore": 1,
+        "EdgeScore": 0.531030701754386,
+        "CenterScore": 0.7047337371744228,
+        "WindowContainmentScore": 1,
+        "InteriorScore": 0.4936362636586902,
+        "TemporalStabilityScore": 0.10265247492330093,
+        "FinalScore": 0.46295327012030457
+      }
+    },
+    {
+      "Bounds": {
+        "X": 533.3333333333334,
+        "Y": 226.31157270029672,
+        "Width": 1813.3333333333333,
+        "Height": 162.26112759643917
+      },
+      "Method": "Line intersection",
+      "Scores": {
+        "AreaScore": 0.28525505157552633,
+        "AspectRatioScore": 0.4500560317619217,
+        "RectangleCompletenessScore": 1,
+        "EdgeScore": 0.525,
+        "CenterScore": 0.7069084486540964,
+        "WindowContainmentScore": 0.9999999999999998,
+        "InteriorScore": 0.4828878809696404,
+        "TemporalStabilityScore": 0.10326403117545771,
+        "FinalScore": 0.45981484144518636
+      }
+    },
+    {
+      "Bounds": {
+        "X": 381.8666666666667,
+        "Y": 219.90652818991097,
+        "Width": 1964.8,
+        "Height": 168.66617210682492
+      },
+      "Method": "Line intersection",
+      "Scores": {
+        "AreaScore": 0.3212828529037727,
+        "AspectRatioScore": 0.4500455300630512,
+        "RectangleCompletenessScore": 1,
+        "EdgeScore": 0.4815911306042885,
+        "CenterScore": 0.7095530635254913,
+        "WindowContainmentScore": 1,
+        "InteriorScore": 0.5012735923620426,
+        "TemporalStabilityScore": 0.10133245297899068,
+        "FinalScore": 0.4580847661646025
+      }
+    },
+    {
+      "Bounds": {
+        "X": 533.3333333333334,
+        "Y": 277.5519287833828,
+        "Width": 1813.3333333333333,
+        "Height": 111.02077151335311
+      },
+      "Method": "Line intersection",
+      "Scores": {
+        "AreaScore": 0.19517450897272853,
+        "AspectRatioScore": 0.4500084020069388,
+        "RectangleCompletenessScore": 1,
+        "EdgeScore": 0.5708333333333333,
+        "CenterScore": 0.7242769488626124,
+        "WindowContainmentScore": 0.9999999999999999,
+        "InteriorScore": 0.44463828339608763,
+        "TemporalStabilityScore": 0.10843193197736174,
+        "FinalScore": 0.45492464368520713
+      }
+    },
+    {
+      "Bounds": {
+        "X": 381.8666666666667,
+        "Y": 277.5519287833828,
+        "Width": 1964.8,
+        "Height": 111.02077151335311
+      },
+      "Method": "Line intersection",
+      "Scores": {
+        "AreaScore": 0.21147732089868584,
+        "AspectRatioScore": 0.4500056257381421,
+        "RectangleCompletenessScore": 1,
+        "EdgeScore": 0.5259837962962963,
+        "CenterScore": 0.7294441686583805,
+        "WindowContainmentScore": 0.9999999999999999,
+        "InteriorScore": 0.47486062200922785,
+        "TemporalStabilityScore": 0.107458651515483,
+        "FinalScore": 0.4514725598665143
+      }
+    }
+  ]
+}

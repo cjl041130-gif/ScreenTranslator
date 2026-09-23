@@ -1,0 +1,42 @@
+{
+  "Expected": [
+    "Introduction to Computer Vision",
+    "Computer vision enables machines to understand images.",
+    "Reliable recognition preserves every important sentence."
+  ],
+  "Actual": "Introduction to Computer Vision Computer vision enables machines to understand images. Reliable recoanition preserves every important sentence.",
+  "Blocks": [
+    {
+      "Id": "ocr-1",
+      "OriginalText": "Introduction to Computer Vision",
+      "Confidence": 0.9936372134834528,
+      "ConfidenceSource": 1,
+      "X": 19,
+      "Y": 104,
+      "Width": 932,
+      "Height": 37
+    },
+    {
+      "Id": "ocr-2",
+      "OriginalText": "Computer vision enables machines to understand images.",
+      "Confidence": 0.9962182185866616,
+      "ConfidenceSource": 1,
+      "X": 7,
+      "Y": 245,
+      "Width": 1042,
+      "Height": 26
+    },
+    {
+      "Id": "ocr-3",
+      "OriginalText": "Reliable recoanition preserves every important sentence.",
+      "Confidence": 0.9887794078442088,
+      "ConfidenceSource": 1,
+      "X": 11,
+      "Y": 396,
+      "Width": 1017,
+      "Height": 23
+    }
+  ],
+  "ModelLoadMs": 636.5054,
+  "OcrMs": 2622.3075
+}

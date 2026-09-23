@@ -1,0 +1,238 @@
+[
+  {
+    "Status": "Modified",
+    "Path": "appsettings.json"
+  },
+  {
+    "Status": "Modified",
+    "Path": "README.md"
+  },
+  {
+    "Status": "Modified",
+    "Path": "App\\App.xaml"
+  },
+  {
+    "Status": "Modified",
+    "Path": "App\\MainViewModel.cs"
+  },
+  {
+    "Status": "Modified",
+    "Path": "App\\MainWindow.xaml"
+  },
+  {
+    "Status": "Modified",
+    "Path": "App\\MainWindow.xaml.cs"
+  },
+  {
+    "Status": "Added",
+    "Path": "App\\Themes\\LightTheme.xaml"
+  },
+  {
+    "Status": "Added",
+    "Path": "App\\ViewModels\\DocumentViewModel.cs"
+  },
+  {
+    "Status": "Added",
+    "Path": "App\\ViewModels\\HomeViewModel.cs"
+  },
+  {
+    "Status": "Added",
+    "Path": "App\\ViewModels\\LanguagePackViewModel.cs"
+  },
+  {
+    "Status": "Added",
+    "Path": "App\\ViewModels\\PageViewModel.cs"
+  },
+  {
+    "Status": "Added",
+    "Path": "App\\ViewModels\\RecognitionViewModel.cs"
+  },
+  {
+    "Status": "Added",
+    "Path": "App\\ViewModels\\SettingsViewModel.cs"
+  },
+  {
+    "Status": "Added",
+    "Path": "App\\Views\\DocumentView.xaml"
+  },
+  {
+    "Status": "Added",
+    "Path": "App\\Views\\DocumentView.xaml.cs"
+  },
+  {
+    "Status": "Added",
+    "Path": "App\\Views\\HomeView.xaml"
+  },
+  {
+    "Status": "Added",
+    "Path": "App\\Views\\HomeView.xaml.cs"
+  },
+  {
+    "Status": "Added",
+    "Path": "App\\Views\\LanguagePackView.xaml"
+  },
+  {
+    "Status": "Added",
+    "Path": "App\\Views\\LanguagePackView.xaml.cs"
+  },
+  {
+    "Status": "Added",
+    "Path": "App\\Views\\PreviewPane.xaml"
+  },
+  {
+    "Status": "Added",
+    "Path": "App\\Views\\PreviewPane.xaml.cs"
+  },
+  {
+    "Status": "Added",
+    "Path": "App\\Views\\RecognitionView.xaml"
+  },
+  {
+    "Status": "Added",
+    "Path": "App\\Views\\RecognitionView.xaml.cs"
+  },
+  {
+    "Status": "Added",
+    "Path": "App\\Views\\SettingsView.xaml"
+  },
+  {
+    "Status": "Added",
+    "Path": "App\\Views\\SettingsView.xaml.cs"
+  },
+  {
+    "Status": "Added",
+    "Path": "docs\\Phase15\\changed-files.json"
+  },
+  {
+    "Status": "Added",
+    "Path": "docs\\Phase15\\core-integrity.json"
+  },
+  {
+    "Status": "Added",
+    "Path": "docs\\Phase15\\Report.md"
+  },
+  {
+    "Status": "Added",
+    "Path": "docs\\Phase15\\screenshots\\01-main-home-idle.png"
+  },
+  {
+    "Status": "Added",
+    "Path": "docs\\Phase15\\screenshots\\02-settings.png"
+  },
+  {
+    "Status": "Added",
+    "Path": "docs\\Phase15\\screenshots\\03-document.png"
+  },
+  {
+    "Status": "Added",
+    "Path": "docs\\Phase15\\screenshots\\04-language-pack.png"
+  },
+  {
+    "Status": "Added",
+    "Path": "docs\\Phase15\\screenshots\\05-recognition-idle.png"
+  },
+  {
+    "Status": "Added",
+    "Path": "docs\\Phase15\\screenshots\\06-recognition-running.png"
+  },
+  {
+    "Status": "Added",
+    "Path": "docs\\Phase15\\screenshots\\07-home-running.png"
+  },
+  {
+    "Status": "Added",
+    "Path": "docs\\Phase15\\screenshots\\08-recognition-paused.png"
+  },
+  {
+    "Status": "Added",
+    "Path": "docs\\Phase15\\screenshots\\09-home-stopped.png"
+  },
+  {
+    "Status": "Added",
+    "Path": "docs\\Phase15\\screenshots\\10-settings-advanced.png"
+  },
+  {
+    "Status": "Added",
+    "Path": "docs\\Phase15\\screenshots\\dpi-125-1100-HomeViewModel.png"
+  },
+  {
+    "Status": "Added",
+    "Path": "docs\\Phase15\\screenshots\\dpi-125-1100-SettingsViewModel.png"
+  },
+  {
+    "Status": "Added",
+    "Path": "docs\\Phase15\\screenshots\\dpi-125-1400-HomeViewModel.png"
+  },
+  {
+    "Status": "Added",
+    "Path": "docs\\Phase15\\screenshots\\dpi-125-1400-SettingsViewModel.png"
+  },
+  {
+    "Status": "Added",
+    "Path": "docs\\Phase15\\screenshots\\dpi-150-1100-HomeViewModel.png"
+  },
+  {
+    "Status": "Added",
+    "Path": "docs\\Phase15\\screenshots\\dpi-150-1100-SettingsViewModel.png"
+  },
+  {
+    "Status": "Added",
+    "Path": "docs\\Phase15\\screenshots\\dpi-150-1400-HomeViewModel.png"
+  },
+  {
+    "Status": "Added",
+    "Path": "docs\\Phase15\\screenshots\\dpi-150-1400-SettingsViewModel.png"
+  },
+  {
+    "Status": "Added",
+    "Path": "docs\\Phase15\\screenshots\\dpi-175-1100-HomeViewModel.png"
+  },
+  {
+    "Status": "Added",
+    "Path": "docs\\Phase15\\screenshots\\dpi-175-1100-SettingsViewModel.png"
+  },
+  {
+    "Status": "Added",
+    "Path": "docs\\Phase15\\screenshots\\dpi-175-1400-HomeViewModel.png"
+  },
+  {
+    "Status": "Added",
+    "Path": "docs\\Phase15\\screenshots\\dpi-175-1400-SettingsViewModel.png"
+  },
+  {
+    "Status": "Added",
+    "Path": "docs\\Phase15\\screenshots\\preview.png"
+  },
+  {
+    "Status": "Added",
+    "Path": "docs\\Phase15\\tests\\checks.txt"
+  },
+  {
+    "Status": "Added",
+    "Path": "docs\\Phase15\\tests\\dpi-layout.json"
+  },
+  {
+    "Status": "Added",
+    "Path": "docs\\Phase15\\tests\\result.json"
+  },
+  {
+    "Status": "Added",
+    "Path": "docs\\Phase15\\tests\\samples.csv"
+  },
+  {
+    "Status": "Modified",
+    "Path": "Release\\appsettings.json"
+  },
+  {
+    "Status": "Modified",
+    "Path": "Release\\ScreenTranslator.dll"
+  },
+  {
+    "Status": "Modified",
+    "Path": "Services\\AppSettings.cs"
+  },
+  {
+    "Status": "Modified",
+    "Path": "Tests\\Program.cs"
+  }
+]

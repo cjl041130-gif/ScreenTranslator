@@ -1,0 +1,60 @@
+{
+  "MeasuredAt": "2026-09-12",
+  "Machine": {
+    "Monitor": "2560x1440",
+    "WindowsScale": "150%",
+    "AttachedMonitors": 1
+  },
+  "Results": [
+    {
+      "Scenario": "WPS edit 16:9",
+      "DurationSeconds": 60.1283455,
+      "PreviewFPS": 29.2041879,
+      "VisionFPS": 1.9125749,
+      "CpuPercentAllCores": 4.9422262,
+      "LatencyMeanMs": 55.668607,
+      "LatencyMinMs": 40.9227,
+      "LatencyMaxMs": 106.7966,
+      "PrivateFirstMB": 474.5742,
+      "PrivateLastMB": 410.8516,
+      "StableIoU": 1.0
+    },
+    {
+      "Scenario": "WPS edit 4:3 with right panel (static desktop)",
+      "DurationSeconds": 60.0652842,
+      "PreviewFPS": 0.1331884,
+      "VisionFPS": 0.1165398,
+      "CpuPercentAllCores": 0.3170378,
+      "LatencyMeanMs": 32.2667704,
+      "LatencyMinMs": 23.7368,
+      "LatencyMaxMs": 41.3,
+      "PrivateFirstMB": 474.9844,
+      "PrivateLastMB": 405.4492,
+      "StableIoU": 1.0,
+      "Note": "WGC emits content changes; static source FPS is not throughput"
+    },
+    {
+      "Scenario": "WPS fullscreen 4:3 final no-interference",
+      "DurationSeconds": 60.0465368,
+      "PreviewFPS": 28.9275517,
+      "VisionFPS": 1.9151804,
+      "CpuPercentAllCores": 3.7666083,
+      "LatencyMeanMs": 11.7992524,
+      "LatencyMinMs": 8.0181,
+      "LatencyMaxMs": 15.5062,
+      "PrivateFirstMB": 473.8438,
+      "PrivateLastMB": 464.5234,
+      "StableIoU": 1.0
+    },
+    {
+      "Scenario": "Capture regression",
+      "DurationSeconds": 30,
+      "PreviewFPS": 25.6276531,
+      "MinimumIntervalFPS": 25.0528917,
+      "PrivateFirstMB": 449.9141,
+      "PrivateLastMB": 448.4063,
+      "HandlesFirst": 1457,
+      "HandlesLast": 1454
+    }
+  ]
+}

@@ -1,0 +1,13 @@
+{
+  "DurationSeconds": 10.0508201,
+  "PreviewFPS": 15.819583992300261,
+  "VisionFPS": 1.7908961406496602,
+  "CpuPercentAllCores": 7.860433760668731,
+  "DetectionFound": true,
+  "RegionSampleCount": 38,
+  "StdX": 1.1368683772161603E-13,
+  "StdY": 1.7053025658242404E-13,
+  "StdWidth": 0,
+  "StdHeight": 5.684341886080801E-13,
+  "AverageStableIoU": 0.9999999999999998
+}

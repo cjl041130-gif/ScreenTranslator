@@ -1,0 +1,246 @@
+{
+  "Method": "WPF SetRootDpi visual-tree injection plus real Window resize; OS display settings unchanged",
+  "NativeScale": 1.5,
+  "Observations": [
+    {
+      "RequestedScale": 1.25,
+      "EffectiveScale": 1.25,
+      "Width": 1100,
+      "Height": 700,
+      "Page": "\u9996\u9875",
+      "HorizontalOverflow": 0
+    },
+    {
+      "RequestedScale": 1.25,
+      "EffectiveScale": 1.25,
+      "Width": 1100,
+      "Height": 700,
+      "Page": "\u5B9E\u65F6\u8BC6\u522B",
+      "HorizontalOverflow": 0
+    },
+    {
+      "RequestedScale": 1.25,
+      "EffectiveScale": 1.25,
+      "Width": 1100,
+      "Height": 700,
+      "Page": "\u6587\u6863\u7FFB\u8BD1",
+      "HorizontalOverflow": 0
+    },
+    {
+      "RequestedScale": 1.25,
+      "EffectiveScale": 1.25,
+      "Width": 1100,
+      "Height": 700,
+      "Page": "\u8BED\u8A00\u5305",
+      "HorizontalOverflow": 0
+    },
+    {
+      "RequestedScale": 1.25,
+      "EffectiveScale": 1.25,
+      "Width": 1100,
+      "Height": 700,
+      "Page": "\u8BBE\u7F6E",
+      "HorizontalOverflow": 0
+    },
+    {
+      "RequestedScale": 1.25,
+      "EffectiveScale": 1.25,
+      "Width": 1400,
+      "Height": 900,
+      "Page": "\u9996\u9875",
+      "HorizontalOverflow": 0
+    },
+    {
+      "RequestedScale": 1.25,
+      "EffectiveScale": 1.25,
+      "Width": 1400,
+      "Height": 900,
+      "Page": "\u5B9E\u65F6\u8BC6\u522B",
+      "HorizontalOverflow": 0
+    },
+    {
+      "RequestedScale": 1.25,
+      "EffectiveScale": 1.25,
+      "Width": 1400,
+      "Height": 900,
+      "Page": "\u6587\u6863\u7FFB\u8BD1",
+      "HorizontalOverflow": 0
+    },
+    {
+      "RequestedScale": 1.25,
+      "EffectiveScale": 1.25,
+      "Width": 1400,
+      "Height": 900,
+      "Page": "\u8BED\u8A00\u5305",
+      "HorizontalOverflow": 0
+    },
+    {
+      "RequestedScale": 1.25,
+      "EffectiveScale": 1.25,
+      "Width": 1400,
+      "Height": 900,
+      "Page": "\u8BBE\u7F6E",
+      "HorizontalOverflow": 0
+    },
+    {
+      "RequestedScale": 1.5,
+      "EffectiveScale": 1.5,
+      "Width": 1100,
+      "Height": 700,
+      "Page": "\u9996\u9875",
+      "HorizontalOverflow": 0
+    },
+    {
+      "RequestedScale": 1.5,
+      "EffectiveScale": 1.5,
+      "Width": 1100,
+      "Height": 700,
+      "Page": "\u5B9E\u65F6\u8BC6\u522B",
+      "HorizontalOverflow": 0
+    },
+    {
+      "RequestedScale": 1.5,
+      "EffectiveScale": 1.5,
+      "Width": 1100,
+      "Height": 700,
+      "Page": "\u6587\u6863\u7FFB\u8BD1",
+      "HorizontalOverflow": 0
+    },
+    {
+      "RequestedScale": 1.5,
+      "EffectiveScale": 1.5,
+      "Width": 1100,
+      "Height": 700,
+      "Page": "\u8BED\u8A00\u5305",
+      "HorizontalOverflow": 0
+    },
+    {
+      "RequestedScale": 1.5,
+      "EffectiveScale": 1.5,
+      "Width": 1100,
+      "Height": 700,
+      "Page": "\u8BBE\u7F6E",
+      "HorizontalOverflow": 0
+    },
+    {
+      "RequestedScale": 1.5,
+      "EffectiveScale": 1.5,
+      "Width": 1400,
+      "Height": 900,
+      "Page": "\u9996\u9875",
+      "HorizontalOverflow": 0
+    },
+    {
+      "RequestedScale": 1.5,
+      "EffectiveScale": 1.5,
+      "Width": 1400,
+      "Height": 900,
+      "Page": "\u5B9E\u65F6\u8BC6\u522B",
+      "HorizontalOverflow": 0
+    },
+    {
+      "RequestedScale": 1.5,
+      "EffectiveScale": 1.5,
+      "Width": 1400,
+      "Height": 900,
+      "Page": "\u6587\u6863\u7FFB\u8BD1",
+      "HorizontalOverflow": 0
+    },
+    {
+      "RequestedScale": 1.5,
+      "EffectiveScale": 1.5,
+      "Width": 1400,
+      "Height": 900,
+      "Page": "\u8BED\u8A00\u5305",
+      "HorizontalOverflow": 0
+    },
+    {
+      "RequestedScale": 1.5,
+      "EffectiveScale": 1.5,
+      "Width": 1400,
+      "Height": 900,
+      "Page": "\u8BBE\u7F6E",
+      "HorizontalOverflow": 0
+    },
+    {
+      "RequestedScale": 1.75,
+      "EffectiveScale": 1.75,
+      "Width": 1100,
+      "Height": 700,
+      "Page": "\u9996\u9875",
+      "HorizontalOverflow": 0
+    },
+    {
+      "RequestedScale": 1.75,
+      "EffectiveScale": 1.75,
+      "Width": 1100,
+      "Height": 700,
+      "Page": "\u5B9E\u65F6\u8BC6\u522B",
+      "HorizontalOverflow": 0
+    },
+    {
+      "RequestedScale": 1.75,
+      "EffectiveScale": 1.75,
+      "Width": 1100,
+      "Height": 700,
+      "Page": "\u6587\u6863\u7FFB\u8BD1",
+      "HorizontalOverflow": 0
+    },
+    {
+      "RequestedScale": 1.75,
+      "EffectiveScale": 1.75,
+      "Width": 1100,
+      "Height": 700,
+      "Page": "\u8BED\u8A00\u5305",
+      "HorizontalOverflow": 0
+    },
+    {
+      "RequestedScale": 1.75,
+      "EffectiveScale": 1.75,
+      "Width": 1100,
+      "Height": 700,
+      "Page": "\u8BBE\u7F6E",
+      "HorizontalOverflow": 0
+    },
+    {
+      "RequestedScale": 1.75,
+      "EffectiveScale": 1.75,
+      "Width": 1400,
+      "Height": 900,
+      "Page": "\u9996\u9875",
+      "HorizontalOverflow": 0
+    },
+    {
+      "RequestedScale": 1.75,
+      "EffectiveScale": 1.75,
+      "Width": 1400,
+      "Height": 900,
+      "Page": "\u5B9E\u65F6\u8BC6\u522B",
+      "HorizontalOverflow": 0
+    },
+    {
+      "RequestedScale": 1.75,
+      "EffectiveScale": 1.75,
+      "Width": 1400,
+      "Height": 900,
+      "Page": "\u6587\u6863\u7FFB\u8BD1",
+      "HorizontalOverflow": 0
+    },
+    {
+      "RequestedScale": 1.75,
+      "EffectiveScale": 1.75,
+      "Width": 1400,
+      "Height": 900,
+      "Page": "\u8BED\u8A00\u5305",
+      "HorizontalOverflow": 0
+    },
+    {
+      "RequestedScale": 1.75,
+      "EffectiveScale": 1.75,
+      "Width": 1400,
+      "Height": 900,
+      "Page": "\u8BBE\u7F6E",
+      "HorizontalOverflow": 0
+    }
+  ]
+}
