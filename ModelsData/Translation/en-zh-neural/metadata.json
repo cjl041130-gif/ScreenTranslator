@@ -1,0 +1,10 @@
+{
+  "id": "en-zh-neural",
+  "sourceLanguage": "en",
+  "targetLanguage": "zh-CN",
+  "displayName": "English → 中文",
+  "version": "1.0.0",
+  "quality": "Neural · Quantized",
+  "runtime": "ONNX Runtime CPU",
+  "modelType": "MarianMT OPUS-MT neural translation"
+}

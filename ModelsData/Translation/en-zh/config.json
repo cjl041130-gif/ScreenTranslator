@@ -1,0 +1,7 @@
+{
+  "sourceLanguage": "en",
+  "targetLanguage": "zh-CN",
+  "lowercaseLookup": true,
+  "preserveUnknownTokens": true,
+  "offlineOnly": true
+}

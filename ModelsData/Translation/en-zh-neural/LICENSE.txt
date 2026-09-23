@@ -1,0 +1,6 @@
+Model: Helsinki-NLP/opus-mt-en-zh
+ONNX conversion: Xenova/opus-mt-en-zh
+License: Apache License 2.0
+License text: https://www.apache.org/licenses/LICENSE-2.0
+
+The bundled files retain the upstream model license. ScreenTranslator does not claim ownership of the model weights.

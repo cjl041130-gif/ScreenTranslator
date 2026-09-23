@@ -1,0 +1,10 @@
+{
+  "id": "en-zh",
+  "sourceLanguage": "en",
+  "targetLanguage": "zh-CN",
+  "displayName": "English → 中文",
+  "version": "1.0.0",
+  "quality": "Fast",
+  "runtime": "LocalPhraseTable",
+  "modelType": "Deterministic phrase and terminology model"
+}

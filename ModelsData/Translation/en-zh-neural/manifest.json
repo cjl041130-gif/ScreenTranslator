@@ -1,0 +1,54 @@
+{
+  "files": [
+    {
+      "path": "config.json",
+      "sha256": "4727D1229A04F95BF6F39ABF949D8080615433D99D6EBD85F81C09EDD247D5FA",
+      "sizeBytes": 1503
+    },
+    {
+      "path": "generation_config.json",
+      "sha256": "B743BAABB7DA4C1A2F19FE558BD6B4C0C7C3B0762FCB5CA7A48FE5A2C2219803",
+      "sizeBytes": 293
+    },
+    {
+      "path": "source.spm",
+      "sha256": "5775DDC9E3FF2FAE91554DA56468AD35FF56EDABA870FEA74447BC7234BFDAA8",
+      "sizeBytes": 806435
+    },
+    {
+      "path": "target.spm",
+      "sha256": "81DC94EFA84E4025EF38D25D5D07429FE41E3EB29D44003F1DB6FE98487B0052",
+      "sizeBytes": 804600
+    },
+    {
+      "path": "tokenizer.json",
+      "sha256": "D0C7DA27056E8F42ADCE9E76D8E792E5DAA64E15F5ACD2E7AABF0121877DD4C1",
+      "sizeBytes": 6380952
+    },
+    {
+      "path": "tokenizer_config.json",
+      "sha256": "A914596E6BFF113A8428D4793B586DA87CD0B95697A0E72ABA90CC1D95858481",
+      "sizeBytes": 282
+    },
+    {
+      "path": "special_tokens_map.json",
+      "sha256": "5E4D1F5E759D74CB1C2FE1D165CFC62B5237AA904DE759380CD6F43042EEC723",
+      "sizeBytes": 74
+    },
+    {
+      "path": "vocab.json",
+      "sha256": "22C957348EED495EE925AFC40A36DA3E387C8A34A734C8486967C2DCA271613E",
+      "sizeBytes": 1747795
+    },
+    {
+      "path": "onnx/encoder_model_quantized.onnx",
+      "sha256": "D3B7912BF6A9BD27E4C074C2DF91D4FF3D5B4BC5F7F6C8D7CC9C805C98FBAFEE",
+      "sizeBytes": 52899742
+    },
+    {
+      "path": "onnx/decoder_model_quantized.onnx",
+      "sha256": "2C66A3981099B40EDBB3A0D65E015D05964D42FECB9780F8422776EFF5939112",
+      "sizeBytes": 59842102
+    }
+  ]
+}

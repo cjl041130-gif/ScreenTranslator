@@ -1,0 +1,4 @@
+{
+  "description": "Vocabulary is embedded in model/phrase-table.json",
+  "unknownTokenPolicy": "preserve"
+}
